@@ -1,0 +1,338 @@
+@0    = ~Loron's Return (Ajocmod)~
+@1    = ~Chierico del Pugno di Quercia~
+@2    = ~Corpae~
+@3    = ~Bandito~
+@4    = ~Capo dei Banditi~
+@5    = ~Mago~
+@6    = ~Deano~
+@7    = ~Deimos~
+@8    = ~Belva Distorcente~
+@9    = ~Belva Distorcente Maggiore~
+@10   = ~Griever~
+@11   = ~Eremita~
+@12   = ~Loron~
+@13   = ~Capitano del Pugno di Quercia~
+@14   = ~Pugno di Quercia~
+@15   = ~Ademoth~
+@16   = ~Fromboliere del Pugno di Quercia~
+@17   = ~Scoiattolo~
+@18   = ~Amuleto~
+@19   = ~Amuleto Incantato del Furto +1~
+@20   = ~Gli amuleti sono di solito oggetti magici che vengono generalmente indossati attorno al collo appesi a una catena. Il tipo di catena utilizzato aumenta solitamente il valore estetico dell'oggetto, ma non le proprietà magiche. E possibile indossare al collo solo un amuleto.~
+@21   = ~Hai preso questo Amuleto da un bandito nella foresta. Sembrerebbe migliorare le abilità del ladro.
+
+STATISTICHE:
++1 alla Classe Armatura
++5% a Trovare Trappole
+Lancia Scassinare una volta al giorno
+Utilizzabile solo da:
+ Ladro (Mono e Multiclasse)~
+@22   = ~Cintura~
+@23   = ~Cintura del Demone Combattente ~
+@24   = ~Le cinghie generalmente somigliano alle cinture. A differenza delle cinture, le cinghie non vengono utilizzate per tenere su pantaloni o tute, ma per trasportare borse, foderi e cose del genere.
+
+STATISTICHE
+
+Peso: 2~
+@25   = ~Cintura del Demone Combattente: Xiphias era un giovane mago, scelto per studiare l'evocazione dei Demoni. Tuttavia, prima di essere autorizzato ad iniziare il corso di studi, fu costretto dalla sua scuola a creare questa cintura, la quale offre alcune basilari ma importanti protezioni contro la razza demoniaca. Come questa cintura sia entrata a far parte del bottino dei nani è sconosciuto, e il pensiero dei demoni malvagi che hai incontrato nella caverna ti vengono alla mente.
+
+STATISTICHE:
+Protezione dal Male
++2 THAC0 contro I demoni.
+Peso:  1~
+@26   = ~Katana~
+@27   = ~Lama della Notte~
+@28   = ~Katana
+La katana è una spada leggermente curva, ad un filo, che termina con una parte appuntita. La katana è forse una delle migliore spade mai fatte, le tappe per la sua creazione sono un lungo e segreto processo, più una forma di arte che altro. Questa spada è un'importante sfaccettatura della cultura Kara-Tur. Toccare o maneggiare la katana di un samurai vuol dire insultarlo o stimolare la sua collera. Per un gaijin, o straniero, avere questa spada è un raro evento. Il gaijin può essere un grande ed onorato amico di un importante ministro oppure ha ucciso un samurai.
+
+STATISTICHE:
+
+Danni: 1d10
+Tipo di danno: da taglio
+Peso: 6
+Fattore-Velocità: 4
+Tipo di Competenza: Katana
+Tipo: a 1 mano
+Non utilizzabile da:
+Druido
+Chierico
+Mago~
+@29   = ~Lama della Notte
+
+Quest'arma è stata usata dai più famosi assassini in Kara Tur, ma nessuno conosce il suo nome ad eccezione dell'imperatrice. Ella fu la più grande ladra che il mondo abbia mai visto. Ricevette questa potente arma dopo aver portato a termine una serie di missioni per l'imperatore, il quale decise che era degna della lama. Questa spada è stata creata dai migliori fabbri dell'imperatore e in seguito immersa nel sangue di un drago rosso, di uno nero, di uno d'argento e di uno blu. La leggenda narra che la spada renda chiunque un ladro capace quasi quanto il primo proprietario, ma a causa del forte incantamento, la katana richiede molto da colui che la brandisce, ed è utilizzabile solo da un ladro. Come sia finita nelle tue mani, nessuno lo sa.
+
+STATISTICHE:
+
+Abilità se brandita: 
+-1 alla forza
+-1 alla costituzione
++1 alla destrezza
+rigenera 1 pf ogni 6 secondi, Immunità al veleno
++45% a nascondersi nelle ombre
++35% aprire serrature/collocare trappole/trovare trappole
++15% trovare illusioni
+
+Abilità di combattimento:
+
+Ad ogni colpo andato a segno tiro salvezza contro magia o il bersaglio subisce due punti danno addizionali da fuoco+acido+freddo+elettricità
+
+THAC0 +4 bonus
+Danno: 1D10 +4 
+Tipo di danno: da taglio
+Peso: 6
+Fattore velocità: 4
+Tipo di Competenza: Katana
+Tipo: 1-mano
+Richiede: 6 Forza
+Utilizzabile solo da:
+ Tutti i Ladri, kit compresi (singoli, duali o multiclasse) ~
+@30   = ~Flagello ~
+@31   = ~Punta, Lama e Sasso +3~
+@32   = ~Il mazzafrusto è composto da una solida impugnatura di legno collegata a una verga di ferro o di legno, oppure a una palla, provvista di spine. Tra l'impugnatura e il resto si trova un perno o un anello. L'arma deriva da uno strumento usato originariamente per trebbiare il grano.
+
+STATISTICHE:
+
+Danno: 1D6 +1
+Tipo di danno: Schiacciamento
+Peso: 15
+Fattore-velocità: 7
+Tipo di capacità: Arma chiodata
+Tipo: A 1 mano
+Non utilizzabile da:
+Druido/a
+Mago/a
+Ladro/a~
+@33   = ~Punta, Lama e Sasso +3: Unisce il danno da punta a quello contundente e a quello da taglio creando un'arma molto interessante, che quasi ti garantisce di ferire il nemico qualsiasi tipo di armatura indossi.
+
+STATISTICHE:
+THAC0: +3 bonus
+1D6+1 danno contundente
+1D6+1 danno da punta
+1D6+1 danno da taglio
+Peso: 15
+Richiede: 13 Forza
+Speciale: Velocità di attacco migliorata.
+Non utilizzabile da:
+ Mago
+ Ladro
+ Druido~
+@34   = ~Idolo della Follia Magica~
+@35   = ~Tutto ciò che riesci a decifrare è la vecchia scritta esterna "ATTENZIONE". Non sai che tipo di abilità ha questo Idolo e non sei sicuro di volerlo scoprire.~
+@36   = ~Pugnale~
+@37   = ~The Fuorvioratore +4~
+@38   = ~Il pugnale tipico presenta una lama appuntita generalmente a doppio taglio, al contrario del coltello che presenta una lama non a doppio taglio e che è leggermente più corto del pugnale.
+
+STATISTICHE:
+
+Danni: 1D4
+Tipo di danno: Perforazione
+Peso: 1
+Fattore-velocità: 2
+Tipo di capacità: Spada piccola
+Non utilizzabile da:
+Chierico~
+@39   = ~The Fuorvioratore +4: La Leggenda del ladro Turan Ne-Lin si è sparsa rapidamente da quando la gente ha sentito parlare della sua abilità di essere in un posto, guardarti e subito dopo strisciare alle tue spalle, conficcando il suo pugnale nelle spalle della vittima. Quest'arma sembra fatta apposta per permettere ad ogni taglia gola di avere le capacità e la velocità di Turan, e di diventare molto famoso tra i ladri.
+
+STATISTICHE:
+Danno:  1D4+4
+THAC0: +4 bonus
+Speciale: Lancia Fuorviare due volte al giorno
+Tipo di danno: punta
+Peso: 2
+Fattore velocità: 1 
+Tipo di Competenza: Pugnale
+Tipo: 1-mano
+Richiede: 3 Forza
+Non utilizzabile da:
+ Chierico~
+@40   = ~Pugnale da Lancio~
+@41   = ~Pugnale Tornante +3~
+@42   = ~Il tipico pugnale da lancio ha una lama appuntita e di solito a doppio taglio, al contrario del coltello che ha la lama affilata solo da un lato ed è un po' più corto del pugnale. A differenza del pugnale, il coltello ha un'impugnatura più piccola ed è bilanciato diversamente.
+
+STATISTICHE:
+
+Danno: 1D4
+Tipo di danno: Arma da lancio (perforazione)
+Peso: 1
+Fattore-velocità: 2
+Tipo di capacità: Armi da lancio
+Tipo: A 1 mano
+Non utilizzabile da:
+Chierico/a~
+@43   = ~Pugnale Tornante +3:
+
+Questi sembrano essere normali pugnali, ma in realtà sono armi magiche +3. Sia che il pugnale colpisca o meno il bersaglio, esso tornerà magicamente al lanciatore nello stesso round e potrà essere riutilizzato.
+
+STATISTICHE:
+Abilità di combattimento: il pugnale tornerà al lanciatore
+THACO: +3 bonus
+Danno: 2D4 + 3
+Tipo di danno: da proiettile (perforante)
+Peso: 1
+Fattore velocità: 1
+Tipo di competenza: Pugnale
+Tipo: 1-mano
+Richiede: 3 Forza
+Non utilizzabile da:
+ Chierico
+ Beast Master~
+@44   = ~Gaunti~
+@45   = ~Gaunti del Fermare il Tempo~
+@46   = ~I guanti servono da protezioni per le mani. Possono essere di pelle, di piastre o di maglia. Ogni corazza completa dovrebbe includere guanti del tipo più appropriato. I guanti magici tendono a essere più fini, leggeri e più facilmente indossabili delle varietà normali.~
+@47   = ~Guanti del Fermare il Tempo. Questi guanti molto ricercati trovarono la loro via per diventare proprietà di Loron come dono da uno dei suoi seguaci. Nessuno sa per certo dove siano stati acquistati. Battendo e tenendo ferme le mani, il possessore è in grado di fermare il tempo attorno a lui per un breve periodo, regalandogli alcuni colpi gratis, un paio di secondi per curarsi o per lanciare una magia.
+
+STATISTICHE:
+Speciale: Lancia Fermare il Tempo per 5 secondi una volta al giorno.
++1 bonus Salvezza contro magie.
+Peso: 2~
+@48   = ~Pietra Incantata~
+@49   = ~Pietra Incantata della Conoscenza~
+@50   = ~Questa è una piccola pietra che fluttua orbitando attorno alla testa del proprietario. Basta piazzare la pietra vicino alla testa per farla iniziare a orbitare. Queste pietre, ovviamente magiche, hanno proprietà differenti che dipendono dal loro colore.~
+@51   = ~Pietra Incantate della Conoscenza: Scrupolosamente forgiata per il barbaro Maerik, questa pietra, permette a chi la indossa di avere la conoscenza di mille Bardi. Maerik era stufo di non capire cosa facessero i suoi antichi tesori, e non osava separarsi dalle sue monete per farli identificare. Sfortunatamente, Maerik, sparì subito dopo la sua creazione e si presume che ora viva in una grande casa, nella regione di Waterdeep. Nessuno si è ancora scomodato per verificarlo.
+
+STATISTICHE
+
+Abilità di equipaggiamento: 
++150 alla conoscenza
+Peso: 2~
+@52   = ~Chiave dell'altare~
+@53   = ~Questa chiave ha la forma del piccolo Altare del Santuario di Loron. Pensi che lo aprirà senza problemi.~
+@54   = ~Lettera~
+@55   = ~Loron,
+   Spero che riceverai in tempo questa lettera, poichè ti scrivo terribili notizie. Corpae ha ora un piccolo gruppo di seguaci ed ha perciò riguadagnando un considerevole potere. Ti sta dietro, cercando vendetta. E' solo questione di tempo prima che sia abbastanza potente per teletrasportarsi direttamente al tuo santuario e ti catturi, quindi ti consiglio di partire immediatamente per Athkatla, dove Corpae non sarà in grado di usare la sua magia per le severe leggi imposte dagli Stregoni Incappucciati. Se dovessi aver necessità di tornare al tuo santuario, ti suggerisco di trovare una protezione di qualche genere.
+
+Se avessi bisogno di un posto dove rifugiarti, attualmente risiedo in una piccola Locanda vicino alle Porte della Città.
+Cordiali Saluti,
+              Ademoth~
+@56   = ~Pugnale-Fu +5~
+@57   = ~"Caduto da così in alto,
+ Sulla terra che amiamo.
+ Ferendo tutti i nemici,
+ Uccidendo tutti i nemici.
+
+ Conosci l'arma
+ Certo che si
+ Sempre che anch'io non lo sia"
+
+Iscrizione del Pugnale.
+
+STATISTICHE:
+Danno:  2D8+5
+THAC0 Bonus: 5
+Tipo di danno: taglio
+Peso: 1
+Fattore velocità: 0 
+Tipo di Competenza: Pugnale
+Tipo:  1-mano
+Richiede: 3 Forza
+Non utilizzabile da:
+ Chierico~
+@58   = ~Martello di Guerra~
+@59   = ~Martello di Guerra +3~
+@60   = ~I cavalieri non riescono a utilizzare in modo efficace le armi lunghe quando montano a cavallo, pertanto molte armi sono state modificate con l'adozione di lance più corte che possono essere usate con una sola mano. Le mazze e i mezzafrusti sono due esempi precedenti di questa tendenza, il martello da guerra ne è un altro. Il martello da guerra da cavaliere deriva dal martello di Lucerne. E fatto tutto di acciaio con rondelle che proteggono e rinforzano l'impugnatura. Le rondelle sono piccoli dischi di metallo, spesso di forma decorativa. La lancia è lunga circa 45 cm.
+
+STATISTICHE:
+
+Danni: 1D4 + 1
+Tipo di danno: Schiacciamento
+Peso: 6
+Fattore-velocità: 4
+Tipo di capacità: Armi contundenti
+Non utilizzabile da:
+Druido
+Mago
+Ladro~
+@61   = ~Martello da Guerra +3: Questo Martello incantato è brandito da molti nani del Pugno di Quercia che hai incontrato, ed ha un notevole impatto.
+
+Danno:  1D4 + 4
+Tipo di Danno: contundente 
+Peso: 5
+Fattore Velocita: 2
+Tipo di Competenza: Martello da Guerra
+Tipo: 1-mano
+Richiede: 9 Forza
+Non Utilizzabile da:
+ Druido
+ Mago 
+ Ladro~
+@62   = ~Martello della Quercia +4~
+@63   = ~Martello della Quercia +4: Hai preso questo potente martello dal Capitano del Pugno di Quercia fuori dalla caverna. Ad ogni colpo fa un piccolo numero di danni al portatore, dovuti al potere che richiede da te. Tuttavia, ogni volta che colpirai un nemico, il tuo bersaglio diventerà sempre più facile da centrare per un breve periodo di tempo.
+
+STATISTICHE:
+Danno:  1D4 + 5
+Speciale: 1D4 danno Contundente al portatore ad ogni colpo.
++1 to THAC0 per 3 secondi ad ogni colpo.
+Tipo di Danno: Contundente
+Peso: 14
+Fattore Velocità: 4
+Tipo di COmpetenza: Martello da Guerra
+Tipo: 1-mano
+Richiede: 11 Forza
+Non Utilizzabile da:
+ Druido
+ Mago 
+ Ladro~
+@64   = ~Anello~
+@65   = ~Anello dei Compagni~
+@66   = ~Un anello è una piccola fascia di metallo prezioso utilizzata come gioiello. Alcuni anelli rari sono stati incantati e hanno acquisito poteri magici. Questi anelli sono molto ricercati, soprattutto dagli avventurieri.~
+@67   = ~Anello dei Compagni: Anelli come questi sono creati per allenare gli avventurieri contro i nemici, migliorando sia l'avversario di fronte a te che la resistenza del gruppo. Molti non sanno cosa pensare di questi oggetti che danno un bonus sia agli eroi che ai mostri.
+
+STATISTICHE
++1 a tutti i Tiri Salvezza ai membri del gruppo.
++12 punti ferita ai non-membri del gruppo.~
+@68   = ~Anello dei Compagni Superiore~
+@69   = ~Anello dei Compagni Superiore: Anelli come questi sono creati per allenare gli avventurieri contro i nemici, migliorando sia l'avversario di fronte a te che la resistenza del gruppo. Molti non sanno cosa pensare di questi oggetti che danno un bonus sia agli eroi che ai mostri.
+
+STATISTICHE
++3 a tutti i Tiri Salvezza ai membri del gruppo.
++2 THAC0 ai membri del gruppo.
++1 Destrezza ai membri del gruppo.
+I non-membri del gruppo guadagnano Velocità
+I non-membri del gruppo guadagnano 33% Resistenza alla Magia
+I non-membri del gruppo guadagnano +1 CA~
+@70   = ~Anello di Rigenerazione~
+@71   = ~Questo anello ha una funzione di attivazione che permette al portatore di essere ignorato, come la magia dei sacerdoti "Santuario" e di rigenerare 2 pf ogni 30 secondi. Se si attacca l'effetto scomparirà, ma la rigenerazione continuerà.~
+@72   = ~Anello di Libertà di Movimento~
+@73   = ~Anello di Libertà di Movimento:  'Il dono di Edventar'
+Quest'anello fu dato al brigante e bucaniere conosciuto solo con il nome di Edventar, da un gruppo di elfi acquatici suoi amici. Il suo aiuto nel cacciare la "Regina dei Pirati" Yenandra di Dambrath è stato fondamentale per la loro sopravvivenza, benché Yenandra continui ad essere temuta ovunque la terra incontra il mare.
+
+STATISTICHE:
+Speciale:  Il portatore è immune a qualsiasi cosa, magico e non, che interessi la mobilità. Questo include gli incantesimi di lentezza e di velocità.~
+@74   = ~Fionda~
+@75   = ~Fionda +2~
+@76   = ~Le fionde vengono utilizzate da tempo immemorabile. La fionda di base è composta da una banda di cuoio o tessuto con una nicchia per ospitare l'oggetto da lanciare. L'arma deve essere tenuta per le due estremità della banda e avvolta sulla testa di chi la sta adoperando. Raggiunta la velocità di rotazione massima, è sufficiente rilasciare una delle estremità della banda per lanciare l'oggetto.
+
+STATISTICHE:
+
+Peso: 0
+Fattore-velocità: 6
+Tipo di capacità: Armi da lancio
+Non utilizzabile da:
+~
+@77   = ~Le fionde magiche sono le armi tipiche dei guerrieri halfling. Normalmente è la madre o una zia di talento a creare queste fionde per il ragazzo o la ragazza halfling, pronti a imbarcarsi nella loro seconda grande avventura. La fionda viene data alla seconda avventura e non alla prima perché molti halfling decidono di non proseguire sulla via dell'avventura dopo averla assaporata una prima volta.
+
+STATISTICHE:
+
+THAC0: bonus +2
+Danni: +2 (danno da proiettile)
+Peso: 0
+Fattore-Velocità: 4
+Tipo di Competenza: Fionda
+Tipo: a 1 mano
+Non utilizzabile da:~
+@78   = ~Pergamena~
+@79   = ~Porta Dimensionale~
+@80   = ~Porta dimensionale (Alterazione)
+Livello: 4
+Raggio di azione: 0
+Durata: Istantanea
+Tempo di lancio: 1
+Area d'effetto: Lanciatore
+Tiro-salvezza: Nessuno
+Questo incantesimo trasporta lo stregone in un luogo all'interno del suo raggio visivo. Quando l'incantesimo viene lanciato, davanti allo stregone si apre una porta dimensionale nella quale entrerà immediatamente.~
+@81   = ~Attacco della Belva Distorcente~
+@82   = ~Attacco della Belva Distorcente Maggiore~
+@83   = ~Follia Magica~
+@84   = ~Loron Maledetto~
+@85   = ~Maledizione di Corpae~
+@86   = ~Immolazione del Gruppo~

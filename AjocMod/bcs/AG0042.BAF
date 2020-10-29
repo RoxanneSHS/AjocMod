@@ -1,0 +1,47 @@
+IF
+	OnCreation()
+	Global("AGNoBandits","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("REBAND01",[488.558],10) // Bandit
+		CreateCreature("REBAND02",[500.454],10) // Bandit
+		CreateCreature("REBAND03",[552.476],10) // Bandit
+		CreateCreature("REBAND04",[427.548],10) // Bandit
+		CreateCreature("REBAND05",[525.591],10) // Bandit
+		CreateCreature("TROLL01",[611.216],10) // Troll
+		CreateCreature("TROLL01",[922.440],10) // Troll
+		CreateCreature("TROLL01",[820.176],10) // Troll
+		CreateCreature("TROLL01",[732.539],10) // Troll
+END
+
+IF
+	Global("AGLoronBandit","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("AGLoronJourney","GLOBAL",3)
+		SetGlobal("AGLoronBandit","GLOBAL",0)
+		SetGlobal("AGLoronFight","GLOBAL",1)
+		CreateCreature("AGBANDLE",[636.223],3)
+		CreateCreature("AGBAND01",[347.368],13)
+		CreateCreature("AGBAND02",[316.443],13)
+		CreateCreature("AGBAND03",[580.681],10)
+		CreateCreature("AGBAND04",[1035.385],7)
+		CreateCreature("AGBAND05",[883.548],6)
+END
+
+IF
+	Global("AGLoronTalks","GLOBAL",0)
+	Dead("agbandle")
+	Dead("agband01")
+	Dead("agband02")
+	Dead("agband03")
+	Dead("agband04")
+	Dead("agband05")
+THEN
+	RESPONSE #100
+		Wait(2)
+		SetGlobal("AGBanditsDead","GLOBAL",6)
+		SetGlobal("AGLoronTalks","GLOBAL",1)
+		Continue()
+END
+

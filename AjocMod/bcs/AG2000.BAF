@@ -1,0 +1,31 @@
+IF
+	Global("AG2000FirstVisit","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("AGOAKDW",[492.451],0) // Oak Fist Captain
+		CreateCreature("AGOAKDW2",[467.326],0) // Oak Fist
+		CreateCreature("AGOAKDW2",[325.400],0) // Oak Fist
+		CreateCreature("AGOAKDW2",[259.501],0) // Oak Fist
+		CreateCreature("AGOAKDW2",[606.503],0) // Oak Fist
+		CreateCreature("AGSQUIR",[666.666],0) // Squirrel
+		CreateCreature("AGSQUIR",[342.1260],0) // Squirrel
+		CreateCreature("AGSQUIR",[816.1023],0) // Squirrel
+		CreateCreature("AGSQUIR",[685.1024],0) // Squirrel
+		CreateCreature("AGSQUIR",[837.569],0) // Squirrel
+		CreateCreature("AGSQUIR",[1266.772],0) // Squirrel
+		CreateCreature("AGSQUIR",[975.1144],0) // Squirrel
+		CreateCreature("AGSQUIR",[28.768],0) // Squirrel
+		CreateCreature("AGSQUIR",[1228.798],0) // Squirrel
+		CreateCreature("AGSQUIR",[261.839],0) // Squirrel
+		CreateCreature("AGHERMIT",[660.1079],13) // Hermit
+		SetGlobal("AG2000FirstVisit","GLOBAL",1)
+END
+
+IF
+	!Exists("agsquir2")
+	Global("SquirrelFollow","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CreateCreatureObject("agsquir2",Player1,0,0,0) // Squirrel
+END
+

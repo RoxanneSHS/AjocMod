@@ -1,0 +1,20 @@
+IF
+	See([PC])
+	Range([PC],30)
+	Global("AGSquirrelQuest","GLOBAL",0)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+END
+
+IF
+	!Global("AGSquirrelQuest","GLOBAL",2)
+	See([PC])
+	See("agsquir2")
+THEN
+	RESPONSE #100
+		SetGlobal("AGSquirrelQuest","GLOBAL",2)
+		StartDialogueNoSet([PC])
+		SetGlobal("NukeSquirrel","GLOBAL",1)
+END
+

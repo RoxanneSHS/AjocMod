@@ -1,0 +1,14 @@
+IF
+	Global("AGCaveVisit","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("agbadguy",[540.755],5) // Corpae
+		CreateCreature("agloron2",[523.396],13) // Loron
+		CreateCreature("agmag01",[667.727],4) // Mage
+		CreateCreature("agmag02",[809.775],4) // Mage
+		CreateCreature("agmag03",[545.593],0) // Mage
+		CreateCreature("agsquir2",[365.704],13) // Squirrel
+		SetGlobal("AGCaveVisit","GLOBAL",1)
+		SetGlobal("LoronSpeak","GLOBAL",1)
+END
+

@@ -1,0 +1,97 @@
+IF
+	See([PC])
+	Range([PC],30)
+	Global("AGLoronJourney","GLOBAL",2)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+END
+
+IF
+	See([PC])
+	Range([PC],30)
+	Global("AGLoronArrived","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+END
+
+IF
+	AttackedBy(Player1,DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		EscapeArea()
+		SetGlobal("AGLoronAttack","GLOBAL",1)
+END
+
+IF
+	AttackedBy(Player2,DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		EscapeArea()
+		SetGlobal("AGLoronAttack","GLOBAL",1)
+END
+
+IF
+	AttackedBy(Player3,DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		EscapeArea()
+		SetGlobal("AGLoronAttack","GLOBAL",1)
+END
+
+IF
+	AttackedBy(Player4,DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		EscapeArea()
+		SetGlobal("AGLoronAttack","GLOBAL",1)
+END
+
+IF
+	AttackedBy(Player5,DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		EscapeArea()
+		SetGlobal("AGLoronAttack","GLOBAL",1)
+END
+
+IF
+	AttackedBy(Player6,DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		EscapeArea()
+		SetGlobal("AGLoronAttack","GLOBAL",1)
+END
+
+IF
+	Global("AGBanditsDead","GLOBAL",6)
+THEN
+	RESPONSE #100
+		MoveToObject(Player1)
+		SetGlobal("AGBanditsDead","GLOBAL",7)
+END
+
+IF
+	See([PC])
+	Range([PC],30)
+	Global("AGBanditsDead","GLOBAL",7)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+		SetGlobal("AGRunAway","GLOBAL",0)
+END
+
+IF
+	See(NearestEnemyOf([PC]))
+THEN
+	RESPONSE #100
+		RunAwayFrom(NearestEnemyOf([PC]),30)
+END
+

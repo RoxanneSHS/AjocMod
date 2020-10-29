@@ -1,0 +1,19 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("ademoth")
+		ForceSpell(Myself,DO_NOTHING)
+		CreateVisualEffectObject("SPDIMNDR",Player1)
+		CreateVisualEffectObject("SPDIMNDR",Player2)
+		CreateVisualEffectObject("SPDIMNDR",Player3)
+		CreateVisualEffectObject("SPDIMNDR",Player4)
+		CreateVisualEffectObject("SPDIMNDR",Player5)
+		CreateVisualEffectObject("SPDIMNDR",Player6)
+		PlaySound("eff_m09")
+		Wait(1)
+		FadeToColor([30.0],0)
+		Wait(2)
+		StartCutScene("agcavar2")
+END
+

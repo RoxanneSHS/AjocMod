@@ -1,0 +1,406 @@
+BACKUP ~AjocMod/backup~
+
+AUTHOR ~Ajoc deeplytragic@hotmail.com~
+
+VERSION ~v1.8~
+
+AUTO_TRA ~AjocMod/Languages/%s~
+
+ALWAYS
+  ACTION_DEFINE_ARRAY va#reload BEGIN setup END
+
+  LAF HANDLE_CHARSETS
+    INT_VAR
+      infer_charsets = 1
+    STR_VAR
+      tra_path = EVAL ~%MOD_FOLDER%/languages~
+      reload_array = va#reload
+  END
+END
+
+LANGUAGE ~English~
+         ~english~
+         ~AjocMod/languages/english/Setup.tra~
+
+LANGUAGE ~Spanish (translation by Clan REO)~
+         ~spanish~
+         ~AjocMod/languages/spanish/Setup.tra~
+
+LANGUAGE ~Russian (translation by �த, Alex & AERIE.RU)~
+         ~russian~
+         ~AjocMod/languages/russian/Setup.tra~
+
+LANGUAGE ~Deutsch (Uebersetzung von Rumpelstilz)~
+         ~german~
+         ~AjocMod/languages/german/Setup.tra~
+
+LANGUAGE ~Italian (translation by Ilot)~
+         ~italian~
+         ~AjocMod/languages/italian/Setup.tra~
+
+BEGIN @0
+
+COPY ~AjocMod/are~   ~override~
+     ~AjocMod/Pics~   ~override~
+
+COPY_EXISTING ~AR0042.mos~ ~override/AG0042.mos~
+COPY_EXISTING ~AR0042HT.BMP~ ~override/AG0042HT.BMP~
+COPY_EXISTING ~AR0042LM.BMP~ ~override/AG0042LM.BMP~
+COPY_EXISTING ~AR0042SR.BMP~ ~override/AG0042SR.BMP~
+COPY_EXISTING ~AR0042.wed~ ~override/AG0042.wed~
+REPLACE_TEXTUALLY ~AR0042~ ~AG0042~
+COPY_EXISTING ~AR0042.tis~ ~override/AG0042.tis~
+COPY_EXISTING ~AM0042.WAV~ ~override~
+COPY_EXISTING ~AM0042A1.WAV~ ~override~
+COPY_EXISTING ~AM0042A2.WAV~ ~override~
+COPY_EXISTING ~AM0042A3.WAV~ ~override~
+COPY_EXISTING ~AM0042A4.WAV~ ~override~
+COPY_EXISTING ~AM0042N.WAV~ ~override~
+COPY_EXISTING ~AM0042O1.WAV~ ~override~
+COPY_EXISTING ~AM0042O2.WAV~ ~override~
+COPY_EXISTING ~AM0042O3.WAV~ ~override~
+
+LAF HANDLE_TILESETS END 
+
+COPY ~AjocMod/cre/AGOAKDW3.CRE~     ~override~
+  SAY NAME1@1 
+  SAY NAME2 @1 
+
+COPY ~AjocMod/cre/agbadguy.cre~     ~override~
+  SAY NAME1 @2 
+  SAY NAME2 @2 
+
+COPY ~AjocMod/cre/agband01.cre~     ~override~
+  SAY NAME1 @3 
+  SAY NAME2 @3 
+
+COPY ~AjocMod/cre/agband02.cre~     ~override~
+  SAY NAME1 @3 
+  SAY NAME2 @3 
+
+COPY ~AjocMod/cre/agband03.cre~     ~override~
+  SAY NAME1 @3 
+  SAY NAME2 @3 
+
+COPY ~AjocMod/cre/agband04.cre~     ~override~
+  SAY NAME1 @3 
+  SAY NAME2 @3 
+
+COPY ~AjocMod/cre/agband05.cre~     ~override~
+  SAY NAME1 @3 
+  SAY NAME2 @3 
+
+COPY ~AjocMod/cre/agbandle.cre~     ~override~
+  SAY NAME1 @4 
+  SAY NAME2 @4 
+
+COPY ~AjocMod/cre/AGBMAGE1.CRE~     ~override~
+  SAY NAME1 @5 
+  SAY NAME2 @5 
+
+COPY ~AjocMod/cre/AGBMAGE2.CRE~     ~override~
+  SAY NAME1 @5 
+  SAY NAME2 @5 
+
+COPY ~AjocMod/cre/AGBMAGE3.CRE~     ~override~
+  SAY NAME1 @5 
+  SAY NAME2 @5 
+
+COPY ~AjocMod/cre/AGBOSS.CRE~       ~override~
+  SAY NAME1 @2 
+  SAY NAME2 @2 
+
+COPY ~AjocMod/cre/AGDEANO.CRE~      ~override~
+  SAY NAME1 @6 
+  SAY NAME2 @6 
+
+COPY ~AjocMod/cre/AGDEIMOS.CRE~     ~override~
+  SAY NAME1 @7 
+  SAY NAME2 @7 
+
+COPY ~AjocMod/cre/agdisp11.cre~     ~override~
+  SAY NAME1 @8 
+  SAY NAME2 @8 
+
+COPY ~AjocMod/cre/agdisp12.cre~     ~override~
+  SAY NAME1 @8 
+  SAY NAME2 @8 
+
+COPY ~AjocMod/cre/agdisp13.cre~     ~override~
+  SAY NAME1 @8 
+  SAY NAME2 @8 
+
+COPY ~AjocMod/cre/agdispl1.cre~     ~override~
+  SAY NAME1 @8 
+  SAY NAME2 @8 
+
+COPY ~AjocMod/cre/agdispl2.cre~     ~override~
+  SAY NAME1 @9 
+  SAY NAME2 @9 
+
+COPY ~AjocMod/cre/AGGRIEV.CRE~      ~override~
+  SAY NAME1 @10 
+  SAY NAME2 @10 
+
+COPY ~AjocMod/cre/AGHERMIT.CRE~     ~override~
+  SAY NAME1 @11 
+  SAY NAME2 @11 
+
+COPY ~AjocMod/cre/AGLORF01.cre~     ~override~
+  SAY NAME1 @5 
+  SAY NAME2 @5 
+
+COPY ~AjocMod/cre/AGLORF02.cre~     ~override~
+  SAY NAME1 @5 
+  SAY NAME2 @5 
+
+COPY ~AjocMod/cre/AGLORF03.cre~     ~override~
+  SAY NAME1 @5 
+  SAY NAME2 @5 
+
+COPY ~AjocMod/cre/AGLORF04.cre~     ~override~
+  SAY NAME1 @5 
+  SAY NAME2 @5 
+
+COPY ~AjocMod/cre/AGLORF05.cre~     ~override~
+  SAY NAME1 @5 
+  SAY NAME2 @5 
+
+COPY ~AjocMod/cre/AGLORF06.cre~     ~override~
+  SAY NAME1 @5 
+  SAY NAME2 @5 
+
+COPY ~AjocMod/cre/agloron.cre~      ~override~
+  SAY NAME1 @12 
+  SAY NAME2 @12 
+
+COPY ~AjocMod/cre/Agloron2.cre~     ~override~
+  SAY NAME1 @12 
+  SAY NAME2 @12 
+
+COPY ~AjocMod/cre/agmag01.cre~      ~override~
+  SAY NAME1 @5 
+  SAY NAME2 @5 
+
+COPY ~AjocMod/cre/agmag02.cre~      ~override~
+  SAY NAME1 @5 
+  SAY NAME2 @5 
+
+COPY ~AjocMod/cre/agmag03.cre~      ~override~
+  SAY NAME1 @5 
+  SAY NAME2 @5 
+
+COPY ~AjocMod/cre/agmag04.cre~      ~override~
+  SAY NAME1 @5 
+  SAY NAME2 @5 
+
+COPY ~AjocMod/cre/agoakbos.cre~     ~override~
+  SAY NAME1 @13 
+  SAY NAME2 @13 
+
+COPY ~AjocMod/cre/AGOAKDW.CRE~      ~override~
+  SAY NAME1 @13 
+  SAY NAME2 @13 
+
+COPY ~AjocMod/cre/AGOAKDW2.CRE~     ~override~
+  SAY NAME1 @14 
+  SAY NAME2 @14 
+
+COPY ~AjocMod/cre/agadem01.cre~     ~override~
+  SAY NAME1 @15 
+  SAY NAME2 @15 
+
+COPY ~AjocMod/cre/AGOAKDW4.CRE~     ~override~
+  SAY NAME1 @16 
+  SAY NAME2 @16 
+
+COPY ~AjocMod/cre/agsquir.cre~      ~override~
+  SAY NAME1 @17 
+  SAY NAME2 @17 
+
+COPY ~AjocMod/cre/agsquir2.cre~     ~override~
+  SAY NAME1 @17 
+  SAY NAME2 @17 
+
+COPY ~AjocMod/cre/agbrus.cre~        ~override~
+  SAY NAME1 #22347
+  SAY NAME2 #22347
+
+// Items for Ajoc's mod
+
+COPY ~AjocMod/itm/AGAMUTHI.ITM~     ~override~
+  SAY NAME1 @18 
+  SAY NAME2 @19 
+  SAY UNIDENTIFIED_DESC @20 
+  SAY DESC @21 
+
+COPY ~AjocMod/itm/AGBELT01.ITM~     ~override~
+  SAY NAME1 @22 
+  SAY NAME2 @23 
+  SAY UNIDENTIFIED_DESC @24 
+  SAY DESC @25 
+
+COPY ~AjocMod/itm/agbladen.itm~     ~override~
+  SAY NAME1 @26 
+  SAY NAME2 @27 
+  SAY UNIDENTIFIED_DESC @28 
+  SAY DESC @29 
+
+COPY ~AjocMod/itm/AGCHAIN.ITM~      ~override~
+  SAY NAME1 @30 
+  SAY NAME2 @31 
+  SAY UNIDENTIFIED_DESC @32 
+  SAY DESC @33 
+
+COPY ~AjocMod/itm/AGCRAZY.ITM~      ~override~
+  SAY NAME1 @18 
+  SAY NAME2 @34 
+  SAY UNIDENTIFIED_DESC @20 
+  SAY DESC @35 
+
+COPY ~AjocMod/itm/AGDAGG01.ITM~     ~override~
+  SAY NAME1 @36 
+  SAY NAME2 @37 
+  SAY UNIDENTIFIED_DESC @38 
+  SAY DESC @39 
+
+COPY ~AjocMod/itm/agdg001.itm~      ~override~
+  SAY NAME1 @40 
+  SAY NAME2 @41 
+  SAY UNIDENTIFIED_DESC @42 
+  SAY DESC @43 
+
+COPY ~AjocMod/itm/AGGUAN01.ITM~     ~override~
+  SAY NAME1 @44 
+  SAY NAME2 @45 
+  SAY UNIDENTIFIED_DESC @46 
+  SAY DESC @47 
+
+COPY ~AjocMod/itm/AGHELM20.ITM~     ~override~
+  SAY NAME1 @48 
+  SAY NAME2 @49 
+  SAY UNIDENTIFIED_DESC @50 
+  SAY DESC @51 
+
+COPY ~AjocMod/itm/AGKEY01.ITM~      ~override~
+  SAY NAME1 @52 
+  SAY NAME2 @52 
+  SAY UNIDENTIFIED_DESC @53 
+  SAY DESC @53 
+
+COPY ~AjocMod/itm/AGLETT01.ITM~     ~override~
+  SAY NAME1 @54 
+  SAY NAME2 @54 
+  SAY UNIDENTIFIED_DESC @55 
+  SAY DESC @55 
+
+COPY ~AjocMod/itm/AGMOOSE.ITM~      ~override~
+  SAY NAME1 @36 
+  SAY NAME2 @56 
+  SAY UNIDENTIFIED_DESC @38 
+  SAY DESC @57 
+
+COPY ~AjocMod/itm/Agoakha2.itm~     ~override~
+  SAY NAME1 @58 
+  SAY NAME2 @59 
+  SAY UNIDENTIFIED_DESC @60 
+  SAY DESC @61 
+
+COPY ~AjocMod/itm/Agoakham.itm~     ~override~
+  SAY NAME1 @58 
+  SAY NAME2 @62 
+  SAY UNIDENTIFIED_DESC @60 
+  SAY DESC @63 
+
+COPY ~AjocMod/itm/AGRING02.ITM~     ~override~
+  SAY NAME1 @64 
+  SAY NAME2 @65 
+  SAY UNIDENTIFIED_DESC @66 
+  SAY DESC @67 
+
+COPY ~AjocMod/itm/AGRING03.ITM~     ~override~
+  SAY NAME1 @64 
+  SAY NAME2 @68 
+  SAY UNIDENTIFIED_DESC @66 
+  SAY DESC @69 
+
+COPY ~AjocMod/itm/AGRING04.ITM~     ~override~
+  SAY NAME1 @64 
+  SAY NAME2 @70 
+  SAY UNIDENTIFIED_DESC @66 
+  SAY DESC @71 
+
+COPY ~AjocMod/itm/AGRING99.ITM~     ~override~
+  SAY NAME1 @64 
+  SAY NAME2 @72 
+  SAY UNIDENTIFIED_DESC @66 
+  SAY DESC @73 
+
+COPY ~AjocMod/itm/AGSLING4.itm~     ~override~
+  SAY NAME1 @74 
+  SAY NAME2 @75 
+  SAY UNIDENTIFIED_DESC @76 
+  SAY DESC @77 
+
+COPY ~AjocMod/itm/AGSP999S.itm~     ~override~
+  SAY NAME1 @78 
+  SAY NAME2 @79 
+  SAY DESC @80 
+
+COPY ~AjocMod/itm/JY_01DB.ITM~      ~override~
+  SAY NAME1 @8 
+  SAY NAME2 @8 
+
+COPY ~AjocMod/itm/JY_02DB.ITM~      ~override~
+  SAY NAME1 @8 
+  SAY NAME2 @8 
+  SAY UNIDENTIFIED_DESC @81 
+  SAY DESC @81 
+
+COPY ~AjocMod/itm/JY_03DB.ITM~      ~override~
+  SAY NAME1 @9 
+  SAY NAME2 @9 
+  SAY UNIDENTIFIED_DESC @82 
+  SAY DESC @82 
+
+
+COPY ~AjocMod/spl/AGCRAZY.SPL~      ~override~
+  SAY NAME1 @83 
+COPY ~AjocMod/spl/AGSP999.SPL~      ~override~
+  SAY NAME1 @79 
+  SAY UNIDENTIFIED_DESC @80 
+
+COPY ~AjocMod/spl/ajwi966.spl~      ~override~
+  SAY NAME1 @84 
+COPY ~AjocMod/spl/ajwi967.SPL~      ~override~
+  SAY NAME1 @85 
+COPY ~AjocMod/spl/ajwi968.SPL~      ~override~
+  SAY NAME1 @86 
+
+COMPILE~AjocMod/dlg/Agadem01.d~
+COMPILE~AjocMod/dlg/Agbadguy.d~
+COMPILE~AjocMod/dlg/Agboss.d~
+COMPILE~AjocMod/dlg/Agbrus.d~
+COMPILE~AjocMod/dlg/Agdeano.d~
+COMPILE~AjocMod/dlg/Agdeimos.d~
+COMPILE~AjocMod/dlg/Aghermit.d~
+COMPILE~AjocMod/dlg/Agloron.d~
+COMPILE~AjocMod/dlg/Agloron2.d~
+COMPILE~AjocMod/dlg/Agmag01.d~
+COMPILE~AjocMod/dlg/Agoakbos.d~
+COMPILE~AjocMod/dlg/Agoakint.d~
+
+COMPILE ~AjocMod/bcs~
+
+EXTEND_TOP ~AR0020.bcs~~AjocMod/snip/sAR0020.baf~
+EXTEND_TOP ~AR0022.bcs~~AjocMod/snip/sAR0022.baf~
+EXTEND_TOP ~AR0406.bcs~~AjocMod/snip/sAR0406.baf~
+EXTEND_TOP ~AR1002.bcs~~AjocMod/snip/sAR1002.baf~
+
+ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
+COPY ~AjocMod/tis~   ~override~
+END
+
+
+
+

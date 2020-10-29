@@ -1,0 +1,10 @@
+IF
+	See([PC])
+	Range([PC],30)
+	Global("AGLoronArrived","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+		SetGlobal("AGLoronArrived","GLOBAL",2)
+END
+

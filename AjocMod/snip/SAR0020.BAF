@@ -1,0 +1,9 @@
+IF
+	Global("AGLoronGate","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CreateCreature("AGLORON",[511.324],4)
+		SetGlobal("AGLoronGate","GLOBAL",2)
+		Continue()
+END
+

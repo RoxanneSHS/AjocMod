@@ -1,0 +1,360 @@
+@0    = ~Loron's Return (Ajocmod)~
+@1    = ~Clérigo del Puño de Roble~
+@2    = ~Corpae~
+@3    = ~Bandido~
+@4    = ~Líder de los bandidos~
+@5    = ~Mago~
+@6    = ~Deano~
+@7    = ~Deimos~
+@8    = ~Bestia desplazadora~
+@9    = ~Bestia desplazadora mayor~
+@10   = ~Griever~
+@11   = ~Ermitaño~
+@12   = ~Loron~
+@13   = ~Capitán del Puño de Roble~
+@14   = ~Infante del Puño de Roble~
+@15   = ~Ademoth~
+@16   = ~Hondero del Puño de Roble~
+@17   = ~Ardilla~
+@18   = ~Amuleto~
+@19   = ~Amuleto de Latrocinio Mejorado +1~
+@20   = ~Los amuletos suelen ser objetos mágicos que por lo común se llevan alrededor del cuello, colgados de una cadena. El tipo de cadena que acompaña al amuleto suele aumentar el valor estético del elemento, pero no las propiedades mágicas. Sólo se puede llevar un amuleto en el cuello.  ~
+@21   = ~Conseguiste este amuleto de un bandido en los bosques. Parece mejorar las aptitudes de un pícaro.
+
+ESTADÍSTICAS:
++1 a la Clase de Armadura
++5% a encontrar trampas
+Apertura una vez al día.
+Utilizable por:
+ Ladrones~
+@22   = ~Fajín~
+@23   = ~Fajín de combatir demonios~
+@24   = ~Los fajines son parecidos a los cinturones. Pero los fajines no se utilizan para sujetarse los pantalones, sino para llevar bolsas, vainas y cosas similares.
+
+ESTADISTICAS:
+
+Peso: 2
+~
+@25   = ~Xiphias era un joven mago, que había escogido estudiar la conjuración de demonios. Antes de que pudiera empezar el curso, la escuela le obligó a crear este fajín, que ofrece unas protecciones básicas pero importantes contra las hordas demoníacas. No se sabe cómo llegó este cinto a la Fortaleza del Tesoro Enano, y no puedes evitar pensar en que puede haber demonios en la cueva donde lo encontraste.
+
+ESTADÍSTICAS:
+
+Protección contra el mal
++2 al THAC0 contra demonios.
+Peso:  1~
+@26   = ~Katana~
+@27   = ~Hoja de la noche~
+@28   = ~Katana
+
+La katana es una espada curvada con un único filo y acabada en punta. Quizá sea una de las mejores espadas que se han fabricado nunca. Los pasos de su creación, un proceso largo y secreto, son más una forma de arte que cualquier otra cosa. Su hoja es una de las facetas más importantes de la cultura de Kara-Tur. Tocar o coger la katana de un samurái es un insulto que atraerá su ira. Que un gaijin o extranjero posea una de estas espadas es algo raro. O el gaijin ha sido honrado por un importante ministro o ha asesinado a un samurái.
+
+ESTADISTICAS:
+
+Daño: 1D10
+Tipo de daño: Cortante
+Peso: 6
+Factor de velocidad: 4
+Talento marcial: Katana
+Tipo: una mano
+No permitido a:
+ Druidas
+ Magos
+ Clérigos
+ Maestros de las bestias~
+@29   = ~Hoja de la noche
+
+Esta fue el arma utilizada por la más famosa asesina de Kara-Tur, aunque nadie sabía su nombre a excepción del emperador. Fue la mejor ladrona de la historia, y recibió esta poderosa espada tras completar un buen número de misiones para el emperador, que decidió que se la merecía. Fue forjada por los mejores armeros del emperador, y templada con la sangre de dragones rojos, negros, azules y argénteos. La leyenda dice que esta arma hace a cualquiera casi tan buen ladrón como la dueña original, pero a causa de sus poderosos encantamientos, la katana requiere un buen portador, y sólo un ladrón puede utilizarla. Todo el mundo se pregunta cómo ha acabado en tus manos.
+
+ESTADÍSTICAS:
+
+Aptitudes cuando se equipa: 
+-1 a la fuerza
+-1 a la constitución
++1 a la destreza
+Regenera 1 pg/6 segundos,  Inmunidad al veneno
++45% a esconderse en las sombras
++35% a abrir cerraduras/colocar trampas/detectar trampas
++15% a detectar ilusiones
+
+Aptitudes en combate:
+Con cada golpe el objetivo debe salvar contra conjuros o recibir dos puntos de daño adicionales de fuego+ácido+frío+electricidad
+
+THAC0 bonificador +4
+Daño:  1D10 +4 
+Tipo de daño:  cortante
+Peso:  6
+Factor de velocidad: 4
+Talento marcial: Katana
+Tipo:  1 mano
+Requiere: Fuerza 6
+Utilizable por:
+ Cualquier kit de Ladrón (una clase, multiclase o dual) ~
+@30   = ~Flail ~
+@31   = ~Espinas, Filos y Peso +3~
+@32   = ~El mayal consiste en un mango grueso de madera unido a una barra de hierro, a una estaca de madera con pinchos o a una bola de hierro con pinchos. Entre el asidero y el instrumento, hay una bisagra o una junta de cadena. Originariamente, este arma se utilizaba para trillar el grano.
+
+ESTADISTICAS:
+
+Daño: 1D6 +1
+Tipo de daño: aplastamiento
+Peso: 15
+Factor de velocidad: 7
+Tipo de talento: Armas con punta.
+Tipo: a 1 mano
+No utilizable por:
+Druidas
+Magos
+Ladrones~
+@33   = ~Combina daño perforante, contundente y cortante para conseguir un arma interesante, que atravesará casi con toda seguridad cualquier tipo de armadura.
+
+ESTADÍSTICAS:
+
+THAC0: bonificador +3
+1D6+1 de daño contundente
+1D6+1 de daño cortante
+1D6+1 de daño perforante
+Peso: 15
+Requiere: Fuerza 13
+Especial: velocidad de ataque aumentada.
+No utilizable por:
+ Magos
+ Ladrones
+ Druidas~
+@34   = ~Ídolo de locura mágica~
+@35   = ~Todo lo que puedes entender aquí es la palabra "CUIDADO" escrita en letras antiguas y extranjeras.
+No sabes qué aptitudes tiene este ídolo, y tampoco si realmente quieres conocerlas...~
+@36   = ~Daga~
+@37   = ~La Corruptora +4~
+@38   = ~La daga típica tiene una hoja puntiaguda de doble filo, al contrario que el cuchillo, que sólo tiene un filo y es un poco más corto que la daga.
+
+ESTADISTICAS:
+
+Daño: 1D4
+Tipo de daño: perforante
+Peso: 1
+Factor de velocidad: 2
+Tipo de talento: Daga
+No utilizable por:
+ Clérigos~
+@39   = ~La leyenda del ladrón Turan Ne-Lin se extendió con rapidez cuando los plebeyos oyeron hablar de su habilidad de estar en un lugar, mirando a alguien, y de repente aparecer tras de él y clavar su daga en su espalda. Esta arma de gran calidad parece hecha a medida para dar a cualquier rajagargantas los poderes potentes de Turan, y sería muy apreciada por cualquier pícaro.
+
+ESTADÍSTICAS:
+
+Daño:  1D4+4
+THAC0: bonificador +4
+Especial: lanzar Desorientar dos veces al día
+Tipo de daño:  perforante
+Peso: 2
+Factor de velocidad: 1 
+Talento marcial: Daga
+Tipo: 1 mano
+Requiere: Fuerza 3 
+No utilizable por:
+ Clérigos~
+@40   = ~Daga arrojadiza~
+@41   = ~Daga de retorno +3~
+@42   = ~La daga arrojadiza típica tiene una hoja puntiaguda de doble filo, al contrario que el cuchillo, que sólo tiene un filo y es un poco más corto que la daga. A diferencia de la daga, ésta tiene una empuñadura más pequeña y está compensada de manera diferente.
+
+ESTADISTICAS:
+
+Daño: 1D4
+Tipo de daño: proyectil (perforante)
+Peso: 1
+Factor de velocidad: 2
+Tipo de talento: Daga
+Tipo: 1 mano
+Requiere: Fuerza 3
+No lo puede usar:
+Clérigo~
+@43   = ~Daga de retorno +3:
+
+Estos parecen cuchillos normales, pero son armas mágicas +3. Acierte o falle el golpe, la daga volverá mágicamente al lanzador en el mismo asalto y podrá ser reutilizada.
+
+ESTADÍSTICAS:
+
+Aptitudes en combate: la daga retorna al lanzador
+
+THACO:  bonificador +3
+Daño:  2D4 + 3
+Tipo de daño:  proyectil (perforante)
+Peso: 1
+Factor de velocidad: 1
+Talento marcial: Daga
+Tipo:  1 mano
+Requiere: Fuerza 3
+No utilizable por:
+ Clérigos
+ Maestros de las bestias~
+@44   = ~Guanteletes~
+@45   = ~Guanteletes de parar el tiempo~
+@46   = ~Los guanteletes son guantes armados. Pueden estar hechos de cuero, placas de metal o cota de malla. Se supone que cada juego de armadura incluye los guanteletes adecuados. Loa mágicos suelen ser mejores, más ligeros y más fáciles de llevar que las variedades normales.~
+@47   = ~Loron consiguió estos deseados guanteletes como regalo de uno de sus seguidores, aunque nadie está seguro de dónde los consiguió éste. Dando una palmada y juntando las manos el usuario puede hacer que el tiempo se pare a su alrededor durante un poco de tiempo, permitiéndole dar un par de golpes extra, curarse o incluso lanzar conjuros.
+
+ESTADÍSTICAS:
+
+Especial: lanza Parar el tiempo durante cinco segundos una vez al día
++1 a las salvaciones contra conjuros
+Peso:  2~
+@48   = ~Piedra Ioun~
+@49   = ~Piedra Ioun de conocimiento~
+@50   = ~Esta es una piedra pequeña que orbita alrededor de la cabeza de su dueño. Equípala para ponerla en órbita. Estas piedras tienen propiedades distintas según su color.~
+@51   = ~Forjada cuidadosamente para el bárbaro Maerik, esta piedra permite a su portador poseer la sabiduría de un millar de bardos. Maerik estaba harto de no saber lo que hacían sus tesoros, y no quería pagar para que los identificasen en otro sitio. Por desgracia, Maerik desapareció poco después de la creación de este objeto, y se supone que ahora vive en una gran casa en la región de Aguas Profundas. Nadie se ha molestado en comprobarlo.
+
+ESTADÍSTICAS
+
+Aptitudes cuando se equipa: 
++150 al Conocimiento
+Peso: 2~
+@52   = ~Llave del altar~
+@53   = ~Esta llave tiene la misma forma del altar de la Capilla de Loron. Supones que la abrirá sin problemas.~
+@54   = ~Carta~
+@55   = ~Loron,
+   Espero que recibas esto a tiempo, puesto que comunica terribles nuevas. Corpae ha conseguido un pequeño grupo de seguidores y recuperado bastante poder. Te busca para vengarse, y sólo es cuestión de tiempo que obtenga el poder necesario para teleportarse a tu capilla y capturarte, así que te sugiero que partas hacia Athkatla, donde Corpae no podrá usar magia por las leyes estrictas de los Magos Encapuchados. Si tuvieras que volver a tu capilla, te sugiero que consigas protección.
+
+Si necesitas buscar refugio, estoy residiendo en una posada cerca de las puertas de la ciudad.
+Sinceramente tuyo,
+              Ademoth~
+@56   = ~Daga-Fu +5~
+@57   = ~"Cayó de tan arriba,
+ A la tierra que amamos.
+ Cortando a los enemigos,
+ Matando a los enemigos.
+
+ Conoces el arma
+ Claro que sí
+ Te pertenece a ti"
+
+Inscripción de la Daga.
+
+ESTADÍSTICAS:
+
+Daño:  2D8+5
+THAC0: bonificador +5
+Tipo de daño:  perforante
+Peso: 1
+Factor de velocidad: 0 
+Talento marcial: Daga
+Tipo:  1 mano
+Requiere: Fuerza 3
+No utilizable por:
+ Clérigos~
+@58   = ~Martillo de guerra~
+@59   = ~Martillo de guerra +3~
+@60   = ~Los caballeros a caballo no pueden manejar eficazmente las armas de palo largo, y como consecuencia de ello muchas de las armas disponen de un mango más corto para poder empuñarlas con una sola mano. Las mazas y los mayales son ejemplos anteriores (así como el martillo de guerra). El martillo de guerra del jinete es el descendiente del martillo de Lucerna. Se elabora por entero en acero, con arandelas que protegen y refuerzan la empuñadura. Las arandelas son pequeños discos de metal, que se diseñan a menudo con formas decorativas. El mango mide unos 46 centímetros.
+
+ESTADISTICAS:
+
+Daño: 1D4 + 1
+Tipo de daño: aplastamiento
+Peso: 6
+Factor de velocidad: 4
+Talento marcial: Martillo de guerra
+Tipo:  1 mano
+Requiere: Fuerza 9
+No utilizable por:
+ Druidas
+ Magos 
+ Ladrones~
+@61   = ~Este martillo encantado es usado por la mayoría de los enanos del Puño de Roble que has visto, y duele mucho.
+
+Daño:  1D4 + 4
+Tipo de daño:  contundente
+Peso: 5
+Factor de velocidad: 2
+Talento marcial: Martillo de guerra
+Tipo:  1 mano
+Requiere: Fuerza 9
+No utilizable por:
+ Druidas
+ Magos 
+ Ladrones~
+@62   = ~Martillo de Roble +4~
+@63   = ~Conseguiste este martillo muy poderoso del Capitán del Puño de Roble a la entrada de la cueva. El martillo hace un poco de daño a su portador con cada golpe, por el poder que requiere de éste. Sin embargo, cada vez que golpea a un oponente, éste resulta cada vez más fácil de golpear durante un poco de tiempo.
+
+ESTADÍSTICAS:
+
+Daño:  1D4 + 5
+Especial: 1D4 de daño contundente por golpe al portador.
++1 al THAC0 por 3 segundos tras cada golpe.
+Tipo de daño:  contundente
+Peso: 14
+Factor de velocidad: 4
+Talento marcial: Martillo de guerra
+Tipo:  1 mano
+Requiere: Fuerza 11
+No utilizable por:
+ Druidas
+ Magos 
+ Ladrones~
+@64   = ~Anillo~
+@65   = ~Anillo de los compañeros~
+@66   = ~Un anillo es una pequeña banda de metal precioso que se utiliza como joya. Algunos anillos poco comunes han tenido encantamientos que confieren varias propiedades mágicas. Estos anillos son muy buscados, especialmente por aquéllos que se dedican a las aventuras.~
+@67   = ~Los objetos como éste se crearon para entrenar a los aventureros, mejorando a los enemigos que ven e incrementando la resistencia del grupo. Mucha gente no sabe qué pensar de estos objetos, ya que ayudan al monstruo tanto como al héroe.
+
+ESTADÍSTICAS
+
++1 a todas las salvaciones de los miembros del grupo.
++12 a los puntos de golpe de todos los ajenos al grupo.~
+@68   = ~Anillo mayor de los compañeros~
+@69   = ~Los objetos como éste se crearon para entrenar a los aventureros, mejorando a los enemigos que ven e incrementando la resistencia del grupo. Mucha gente no sabe qué pensar de estos objetos, ya que ayudan al monstruo tanto como al héroe.
+
+ESTADÍSTICAS
+
++3 al daño de todos los miembros del grupo.
++2 al THAC0 de todos los miembros del grupo.
++1 a la destreza de todos los miembros del grupo.
+Todos los ajenos al grupo ganan Acelerar.
+Todos los ajenos al grupo ganan 33% de resistencia mágica.
+Todos los ajenos al grupo ganan +1 a la CA.~
+@70   = ~Anillo de regeneración~
+@71   = ~Este anillo tiene una función que hace que el portador sea ignorado, como con el conjuro "Santuario", y regenere 2 pg cada 30 segundos. Atacar hace desaparecer el Santuario, pero no la regeneración.~
+@72   = ~Anillo de libertad de acción~
+@73   = ~Anillo de libertad de acción:  'El regalo de Edventar'
+Este anillo se lo dió al bandolero y pirata conocido como Edventar un grupo de elfos acuáticos amigos suyos. Su ayuda fue fundamental para expulsar a la "Reina Pirata" Yenandra de Dambrath, aunque ésta sigue siendo temida en todas las costas.
+
+ESTADÍSTICAS:
+
+Especial:  El portador es inmune a todo aquello que afecte de algún modo a la movilidad. Esto incluye los conjuros de acelerar y ralentizar.~
+@74   = ~Honda~
+@75   = ~Honda +2~
+@76   = ~Las hondas han existido desde el principio de la historia. Las hondas básicas constan de una correa de cuero o de tela con una bolsa para sujetar el proyectil. El arma se sujeta por ambos extremos de la correa y se gira alrededor de la cabeza del lanzador. Cuando se consigue la máxima velocidad, el proyectil se lanza soltando uno de los extremos de la correa.
+
+ESTADISTICAS:
+
+Peso: 0
+Factor de velocidad: 6
+Talento marcial: Honda
+Tipo:  1 mano
+Requiere: Fuerza 3
+No utilizable por:
+~
+@77   = ~Las hondas mágicas son la especialidad de los guerreros medianos. Normalmente la madre o tía del aventurero crea esta honda para el mediano que va a embarcarse en su segunda gran aventura. La honda se da en la segunda aventura y no en la primera porque muchos medianos deciden no seguir la vida de aventurero después de probar.
+
+ESTADÍSTICAS:
+
+THACO:  bonificador +2
+Daño:  +2 (proyectil)
+Peso: 0
+Factor de velocidad: 4
+Talento marcial: Honda
+Tipo:  1 mano
+Requiere: Fuerza 3
+No utilizable por:~
+@78   = ~Pergamino~
+@79   = ~Puerta dimensional~
+@80   = ~Puerta dimensional (Alteración) 
+Nivel: 4
+Alcance: 0
+Duración: Instantáneo
+Tiempo de lanzamiento: 1
+Área de efecto: Lanzador
+Tiro de salvación: Ninguno 
+
+Este conjuro transporta al lanzador a cualquier lugar dentro del alcance de la vista del lanzador. Cuando se usa, un portal dimensional se abre enfrente del lanzador, y éste lo atraviesa inmediatamente. Al atravesarlo, el lanzador se encuentra en el lugar elegido.  
+~
+@81   = ~Ataque de bestias desplazadoras~
+@82   = ~Ataque de bestias desplazadoras mayores~
+@83   = ~Locura mágica~
+@84   = ~Maldecir a Loron~
+@85   = ~Maldición de Corpae~
+@86   = ~Inmolación del grupo~

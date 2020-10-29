@@ -1,0 +1,29 @@
+IF
+	See([PC])
+	Range([PC],30)
+	Global("AG2000FirstVisit","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("AG2000FirstVisit","GLOBAL",2)
+		StartDialogueNoSet([PC])
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPPercentGT(Myself,50)
+THEN
+	RESPONSE #100
+		Attack(NearestEnemyOf(Myself))
+END
+
+IF
+	Global("OCALSoakfisthurt","",0)
+	See(NearestEnemyOf(Myself))
+	Range(NearestEnemyOf(Myself),3)
+	HPPercentLT(Myself,49)
+THEN
+	RESPONSE #100
+		RunAwayFrom(NearestEnemyOf(Myself),30)
+		SetGlobal("OCALSoakfisthurt","",1)
+END
+

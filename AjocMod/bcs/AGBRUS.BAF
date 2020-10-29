@@ -1,0 +1,32 @@
+IF
+	See([PC])
+	Range([PC],30)
+	Global("bungo01see","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("bungo01see","LOCALS",1)
+		StartDialogueNoSet([PC])
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END
+

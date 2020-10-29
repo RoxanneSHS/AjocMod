@@ -1,0 +1,364 @@
+@0    = ~Lorons Rueckehr (Ajocmod)~
+@1  = ~Eichenfaust Priester~
+@2  = ~Corpae~ 
+@3  = ~Bandit~
+@4  = ~Banditen Anführer~ 
+@5  = ~Zauberer~
+@6  = ~Deano~
+@7  = ~Deimos~ 
+@8  = ~Versetzungsbestie~
+@9  = ~Große Versetzungsbestie~ 
+@10 = ~Trauernde~
+@11 = ~Einsiedler~
+@12 = ~Loron~ 
+@13 = ~Eichenfaust Hauptmann~
+@14 = ~Eichenfaust~ 
+@15 = ~Ademoth~
+@16 = ~Eichenfaust Schleuder~
+@17 = ~Eichhörnchen~
+@18 = ~Amulett~ 
+@19 = ~Amulett des verstärkten Diebstahls +1~
+@20 = ~Bei Amuletten handelt es sich meistens um magische Gegenstände, die in der Regel an einer Kette um den Hals getragen werden. Die Art der dazugehörigen Kette erhöht in der Regel nur den ästhetischen Wert des Gegenstands, jedoch nicht seine magischen Eigenschaften. Es kann jeweils immer nur ein Amulett um den Hals getragen werden.  ~ 
+@21 = ~Dieses Amulett wurde einem Banditen aus den Wäldern abgenommen. Es scheint die Fertigkeiten und Fähigkeiten eines Gauners zu verbessern.
+
+SPEZIFISCHE EIGENSCHAFTEN::
+
++1 Rüstungsklasse
++5%  Fallen Finden
+Zaubert Stoß einmal am Tag.
+
+Kann nur verwendett werden von:
+ Dieben (Einzel und Mehrfachklassen)~ 
+@22 = ~Gürtel~
+@23 = ~Gürtel des Dämonenkampfes~ 
+@24 = ~Gürtel sind allgemein Gurten ähnlich. Im Gegensatz zu Gurten werden Gürtel nicht dazu  verwendet, Unterhosen und Latzhosen hochzuhalten, sondern um Beutel, Scheiden und ähnliches zu befestigen.
+
+Gewicht:  1~
+@25 = ~Gürtel des Dämonenkampfes: Xiphias war ein junger Magier, der das Beschwören von Dämonen studieren wollte. Bevor er jedoch das Studium beginnen durfte, wurde er von der Schule genötigt, einen Gürtel fertigen zu lassen, der einen gewissen einfachen, aber nichtsdestotrotz wichtigen Schutz vor Dämonen bietet. Wie dieser Gürtel in den Zwergenschatz kam, ist unbekannt, und Ihr müsst an die schrecklichen Dämonen in der Höhle denken, in der Ihr ihn gefunden habt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schutz vor Bösem
+ETW0: +2 gegen Dämonen.
+Gewicht:  1~
+@26 = ~Katana~
+@27 = ~Klinge der Nacht~
+@28 = ~Katana
+
+Das Katana ist ein Schwert, dessen Klinge nur auf einer Seite scharf ist. Es ist leicht gekrümmt und endet in einer Spitze, die an die Spitze eines Meißels erinnert. Das Katana stellt vermutlich die aufwendigste Form des Schwertes dar. Seine Fertigung ist ein langer, aufwendiger und höchst geheimer Vorgang, den man schon fast als Kunstwerk bezeichnen müsste. Dieses Schwert spielt in der Kultur von Kara-Tur eine wichtige Rolle. Wenn man es wagt, das Katana eines Samurais zu berühren oder gar zu ziehen, beleidigt man den Samurai, dem es gehört, und zieht seinen Zorn auf sich. Es kommt nur äußerst selten vor, dass ein Gaijin, ein Fremder, in den Besitz einer derartigen Waffe kommt. Entweder handelt es sich bei diesem Gaijin dann um den geehrten Freund eines wichtigen Ministers oder um den Mörder eines Samurais.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden:  1W10 (Schnitte)
+Gewicht:  6
+Initativfaktor: 4
+Fertigkeit: Katana
+Typ: 1-händig
+Mindeststärke: 6 
+
+Kann nicht verwendet werden von:
+ Druiden
+ Priestern
+ Zauberern
+ Tiermeistern~
+@29 = ~Klinge der Nacht
+
+Dies ist die Waffe, die die wohl berühmteste Mörderin von Kara-Tur benutzte, aber niemand außer dem Kaiser kannte ihren NAMEM. Sie war die größte Diebin, die die Welt jemals gesehen hatte. Sie erhielt eine mächtige Waffe, nach dem sie eine Serie von Aufträgen für den Kaiser erfolgreich beendete. Dieser entschied, dass sie des Schwertes würdig war. Es wurde von den besten Waffenschmieden des Kaisers gefertigt und anschließend im Blut von roten, schwarzen, silbernen und blauen Drachen gehärtet. Die Legende sagt, dass diese Waffe jeden Dieb fast so gut wie den ursprünglichen Eigentümer machen würde, aber wegen der starken Verzauberung fordert das Katana viel von seinem Träger, und es kann nur von einem Dieb benutzt werden. Wie es in Euren Händen gelangte, ist pure Spekulation.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: 
+-1 Stärke
+-1 Konstitution
++1 Geschicklichkeit
+Regeneriert 1 Trefferpunkt alle 5 Sekunden. Immun gegen Gift
++45% im Schatten verstecken
++35% Schlösser öffnen/Fallen stellen/Fallen finden
++15% Illusionen entdecken
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gegen Zaubersprüche bestehen, oder es erleidet zusätzliche 2 Punkte Feuer,- Säure,- Kälte und Blitzschaden
+
+ETW0: +4
+Schaden:  1W10 +4 (Schnitte)
+Gewicht:  6
+Initativfaktor: 4
+Fertigkeit: Katana
+Typ:  1-händig
+Mindeststärke: 6
+
+Kann nur verwendet werden von:
+ Jedem Diebescharakter (Einzel,- Zwei und Mehrklassig)~
+@30 = ~Flegel~
+@31 = ~Dornen, Klingen und Gewicht +3~
+@32 = ~Ein Flegel besteht aus einem kräftigen Holzgriff, der mit einem Eisenstab, einem mit Dornen besetzten Holzstab oder einer mit Dornen besetzten Eisenkugel verbunden ist. Die beiden Teile sind entweder mit einem Scharnier oder einer Kette verbunden. Ursprünglich wurde diese Waffe zum Dreschen von Getreide benutzt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden:  1W6 +1 (Wucht) 
+Gewicht: 15
+Initativfaktor: 7
+Fertigkeit: Flegel/Morgenstern
+Typ:  1-händig
+Mindeststärke: 13
+
+Kann nicht verwendet werden von:
+ Druiden
+ Zauberern 
+ Dieben~
+@33 = ~Dornen, Klingen und Gewicht +3: Kombiniert Stechen, Zertrümmern und Schneiden zu einer interessanten Waffe, die garantiert fast jede Rüstung durchbricht.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0: +3
+1W6+1 Wucht
+1W6+1 Schnitte
+1W6+1 Stiche
+Gewicht: 15
+Mindeststärke: 13
+Besonderheit: Schnelle Angriffsgeschwindigkeit.
+
+Kann nicht verwendet werden von:
+ Zauberern
+ Dieben
+ Druiden~
+@34 = ~Götze des magischem Wahnsinns~
+@35 = ~Alles, was Ihr verstehen könnt, ist der alte, fremdländische Schriftzug für "sich hüten".
+Ihr seid nicht sicher, welche Fähigkeiten dieser Götze hat, und Ihr seid nicht sicher, ob Ihr es herausfinden wollt.~
+@36 = ~Dolch~
+@37 = ~Der Irreführer +4~
+@38 = ~Der typische Dolch hat gewöhnlich eine spitz zulaufende, zweischneidige Klinge, im Gegensatz zu einem Messer, welches eine einzelne Schneide hat und ein bisschen kürzer als ein Dolch ist. 
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden:  1W4 (Stiche) 
+Gewicht: 1
+Initativfaktor: 2 
+Fertigkeit: Dolch
+Typ:  1-händig
+Mindeststärke: 3
+
+Kann nicht verwendet werden von:
+ Priestern~
+@39 = ~Der Irreführer +4: Die Legenden des Diebs Turan Ne Lin verbreiten sich so schnell, wie Bürgerliche von seiner Fähigkeit hörten, an einem Ort zu sein, Euch anzustarren, um einen Liedschlag später hinter Euch zu erscheinen und einen Dolch tief in den Rücken seines Opfers zu bohren. Diese feine Waffe scheint speziell dazu hergestellt worden zu sein, um jedem Gurgelschlitzer zu erlauben, Turan´s schnelle und schlagkräftige Macht zu haben, und sie wäre bei jedem Gauner sehr beliebt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4+4 (Stiche)
+ETW0: +4 Bonus
+Besonderheit: zweimal täglich "Irreführen" wirken
+Gewicht: 2
+Initativfaktor: 1 
+Fertigkeit: Dolch
+Typ:  1-händig
+Mindeststärke: 3
+
+Kann nicht verwendet werden von:
+ Priestern~
+@40 = ~Wurfdolch~
+@41 = ~Dolch der Zielsuche +3~
+@42 = ~Der typische Wurfdolch hat eine spitze, normalerweise zweischneidige Klinge, anders als ein Messer, das eine einschneidige Klinge besitzt und ein bisschen kürzer ist als der Dolch. Im Gegensatz zum Dolch hat der Wurfdolch einen kürzeren Griff und ist anders ausbalanciert.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 (Geschoss/Stiche)
+Gewicht: 0
+Initativfaktor: 2
+Fertigkeit: Dolch
+Typ:  1-händig
+Mindeststärke: 3
+
+Kann nicht verwendet werden von:
+ Priestern~
+@43 = ~Dolch der Zielsuche +3:
+
+Dieses scheint ein normales Messer zu sein, aber es ist tatsächlich eine magische Waffe +3. Egal, ob der Dolch das vorgesehene Ziel trifft oder nicht, kehrt er in derselben Runde auf magischem Weg zum Werfer zurück und kann wieder verwendet werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Dolch kehrt zum Werfer zurück
+THACO: +3 Bonus
+Schaden: 2W4+3 (Geschoss/Stiche)
+Gewicht: 1
+Initativfaktor: 1
+Fertigkeit: Dolch
+Typ: 1-händig
+Mindeststärke: 3
+
+Kann nicht verwendet werden von:
+ Priestern
+ Tiermeistern~
+@44 = ~Panzerhandschuhe~
+@45 = ~Panzerhandschuhe des Zeitstopps~
+@46 = ~Panzerhandschuhe können aus Leder, Metallplatten oder Kettengliedern gefertigt werden. Zu jeder vollständigen Rüstung gehören auch Panzerhandschuhe des jeweligen Materials. Magische Handschuhe sind im allgemeinen feiner verarbeitet, sowie leichter und einfacher als die normalen Varianten zu tragen.~
+@47 = ~Handschuhe des Zeitstopps. Diese danach sehr begehrten Handschuhe fanden ihren Weg in Loron´s Eigentum, als Geschenk eines seiner Anhänger. Woher diese interessanten Handschuhe stammen, ist sich niemand sicher.
+Durch Klatschen und Zusammenhalten der Hände kann der Benutzer bewirken, dass die Zeit um ihn herum für einen kurzen Augenblick "einfriert", ihm einige freie Schläge ermöglicht, ihm Zeit zum heilen gibt oder sogar die Möglichkeit eröffnet, einen Zauber zu wirken.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit: Einmal täglich für 5 sekunden Zeitstop.
++1 Rettungswürfe gegen Zauber.
+Gewicht:  2~
+@48 = ~Ionenstein~
+@49 = ~Ionenstein des Wissens~
+@50 = ~Dies ist ein kleiner Stein, der den Kopf des Eigentümers in einer Kreisbahn umläuft. Rüstet Euch einfach mit dem Stein aus, um ihm seine Kreisbahn einzurichten. Diese offensichtlich magischen Steine haben je nach Farbe verschiedene Eigenschaften.~
+@51 = ~Ionenstein des Wissens: Sorgfältig für den Barbaren Maerik geschmiedet, gewährt dieser Stein, wenn er getragen wird, dem Träger das Wissen von tausend Barden. Maerik war es überdrüssig, die Bedeutung seiner alten Schätze nicht zu verstehen und er traute sich nicht, mit all seinem Geld aufzubrechen, um sie anderswo identifizieren zu lassen. Traurigerweise verschwand Maerik kurz darauf und man nimmt an, das er in einem großen Haus in der Gegend von Tiefwasser lebt. Niemand hat sich darum gekümmert, das zu überprüfen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: 
++150 Sagenkunde
+Gewicht: 2~
+@52 = ~Altarschlüssel~
+@53 = ~Dieser Schlüssel ist wie der kleine Altar auf Lorons Schrein geformt. Ihr nehmt an, dass er ihn ohne Probleme öffnet.~
+@54 = ~Brief~
+@55 = ~Loron,
+
+ich hoffe, dass Ihr dieses pünktlich erhieltet, weil ich schreckliche Nachrichten niederschreibe. Corpae hat eine kleine Gruppe von Anhängern angeworben und er hat deshalb beträchtliche Kraft zurückgewonnen. Er ist hinter Euch her, auf der Suche nach Rache. Es ist nur eine Frage der Zeit, bevor er mächtig genug ist, sich geradewegs zu Eurem  Hausschrein zu teleportieren, um Euch gefangen zu nehmen, deshalb schlage ich vor, dass Ihr sofort nach Athkatla aufbrecht, wo Corpae aufgrund der von den verhüllten Magiern durchgesetzten strengen Gesetze nicht in der Lage sein wird, irgendwelche Zauberei zu wirken. Sollte es notwendig sein, dass Ihr zu Eurem Schrein zurückkehren müsst, schlage ich vor, dass Ihr irgendeinen Schutz erwerbt.
+
+Wenn Ihr Zuflucht suchen solltet, ich wohne gegenwärtig in einem kleinen Gasthaus nahe den Stadttoren.
+
+Mit freundlichen Grüßen,
+
+Ademoth~
+@56 = ~Fu-Dolch +5~
+@57 = ~"Ist von weit oben herabgefallen,
+ auf das Land, geliebt von uns allen.
+ Zerschlitzt jeden Feind,
+ Tötet jeden Feind.
+
+ Ihr kennt die Waffe
+ Kennt Ihr sie natürlich 
+ so wie auch ich"
+
+Beschreibung des Dolches.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2D8+5 (Stiche)
+ETW0: +5
+Gewicht: 1
+Initativfaktor: 0 
+Fertigkeit: Dolch
+Typ: 1-händig
+Mindeststärke: 3
+
+Kann nicht verwendet werden von:
+ Priestern~
+@58 = ~Kriegshammer~
+@59 = ~Kriegshammer +3~
+@60 = ~Für berittene Kämpfer sind Waffen mit langem Schaft eher ungeeignet, weshalb viele Waffen mit einem kürzeren Schaft versehen wurden, so dass sie mit einer Hand geschwungen werden können. Beispiele dafür sind die bereits erwähnten Streitkolben und Flegel, ein weiteres ist der Kriegshammer. Der Kriegshammer für Reiter wurde aus dem Luzerner Hammer entwickelt. Er besteht ganz aus Stahl und ist mit kleinen Metallscheiben, auch Rondelle genannt, versehen, die zum Schutz und zur Verstärkung des Griffes dienen. Diese Rondelle sind oft schmuckvoll verziert und geformt. Der Schaft hat eine Länge von ungefähr 50 cm.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4+1 (Wucht) 
+Gewicht: 6
+Initativfaktor: 4
+Fertigkeit: Kriegshammer
+Typ:  1-händig
+Mindeststärke: 9
+
+Kann nicht verwendet werden von:
+ Druiden
+ Zauberern 
+ Dieben~
+@61 = ~Kriegshammer +3: Dieser verbesserte Hammer wurde von den meisten Eichenfaustzwergen geführt, die ihr getroffen habt, und kann ganz schön reinhauen.
+
+Schaden: 1W4+4 (Wucht) 
+Gewicht: 5
+Initativfaktor: 2
+Fertigkeit: Kriegshammer
+Typ:  1-händig
+Mindeststärke: 9
+Kann nicht verwendet werden von:
+ Druiden
+ Zauberern 
+ Dieben~
+@62 = ~Eichen Hammer +4~
+@63 = ~Eichen Hammer +4: Dieser sehr mächtige Hammer wurde dem Eichenfaust-Hauptmann draußen vor der Höhle abgenommen. Der Hammer fügt dem Halter, aufgrund der von ihm benötigten Kraft, bei jedem Treffer eine kleine Menge Schaden zu. Jedoch sind die Gegner bei jedem Treffer, den der Träger erzielt, für einen kurzen Zeitraum leichter und leichter zu treffen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4+5 (Wucht)
+Spezial: 1W4 Wucht-Schaden auf Träger bei Treffer.
+ETW0: +1 für 3 sekunden bei Treffer.
+Gewicht: 14
+Initativfaktor: 4
+Fertigkeit: Kriegshammer
+Typ:  1-händig
+Mindeststärke: 11
+
+Kann nicht verwendet werden von:
+ Druiden
+ Zauberern 
+ Dieben~
+@64 = ~Ring~
+@65 = ~Ring der Kampfgefährten~
+@66 = ~Ein Ring ist ein kleines Band aus wertvollem Metall, das als Schmuck am Finger getragen wird. Einige Ringe sind verzaubert und verleihen magische Fähigkeiten. Diese Ringe sind heißbegehrt, insbesondere von Abenteurern und Magiern.~
+@67 = ~Ring der Kampfgefährten: 
+Größerer Ring der Kampfgefährten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
++1 Rettungswürfe für alle Gruppenmitglieder.
++12 Lebenpunkte für alle nicht-Gruppenmitglieder.~
+@68 = ~Größerer Ring der Kampfgefährten~
+@69 = ~Größerer Ring der Kampfgefährten: Größerer Ring der Kampfgefährten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
++3 auf allen Schaden, den Gruppenmitglieder verursachen.
+ETW0: +2 für alle Gruppenmitglieder.
++1 Geschicklichkeit Bonus für alle Gruppenmitglieder.
+Alle nicht-Gruppenmitglieder erhalten Hast.
+Alle nicht-Gruppenmitglieder erhalten 33% Magie resistance.
+Alle nicht-Gruppenmitglieder erhalten +1 zu Ihrer Rüstungsklasse.~
+@70 = ~Ring der Regeneration~
+@71 = ~Dieser Ring hat ein einfaches Aktivierungsmerkmal, welches bewirkt, dass der Träger ignoriert wird, vergleichbar dem Priesterzauberspruch "Heiligtum" und er regeneriert 30 Sekunden lang jede Sekunde 2 Lebenspunkte. Anzugreifen bewirkt, dass die Wirkung des Zaubers "Heiligtum" nachlässt, gleichwohl regeneriert sich der Träger weiter.~
+@72 = ~Ring der Handlungsfreiheit~
+@73 = ~Ring der Handlungsfreiheit: "Edventar's Gift"
+Der Ring wurde dem berühmten Jäger und Plünderer der Riffe, der nur unter dem Namen Edventar bekannt war, von einer Gruppe Meereselfen überreicht, die schon lange mit ihm befreundet waren. Er hatte geholfen, die "Piratenkönigin" Yenandra von Dambras zu vertreiben und so das Überleben der Elfen zu sichern. Yenandra wurde jedoch keineswegs endgültig besiegt und wird noch immer an jeder Küste gefürchtet.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Der Träger ist gegen alle Einflüsse immun, die seine Bewegungsfreiheit beeinflussen. Dies gilt beispielsweise für "Hast" und "Verlangsamen".~
+@74 = ~Schleuder~
+@75 = ~Schleuder +2~
+@76 = ~Schleudern gibt es seit Menschengedenken. Grundsätzlich bestehen sie aus einem Leder- oder Stoffriemen und einem Beutel für das Geschoss. Die Waffe wird an beiden Enden des Riemens gehalten und über dem Kopf im Kreis geschwungen. Wenn die Höchstgeschwindigkeit erreicht ist, wird das Geschoss abgefeuert, indem man ein Ende des Riemens loslässt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 0
+Initativfaktor: 6
+Fertigkeit: Schleuder
+Typ:  1-händig
+Mindeststärke: 3
+~
+@77 = ~Magische Schleudern sind das Kennzeichen von stämmigen Halblingkriegern. Normalerweise erschaffen ihre Mütter oder eine begabte Tante diese Schleudern für den Halbling- Jungen oder das Halbling-Mädchen, welche im Begriff sind, ihr zweites großes Abenteuer in Angriff zu nehmen. Der Grund, warum die Schleuder erst beim zweiten Abenteuer und nicht schon beim ersten übergeben wird, ist der, dass viele Halblinge erst dann beschließen, dem Leben eines Abenteurers nachzugehen, wenn sie auf den Geschmack gekommen sind.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0: +2
+Schaden: +2 (Geschoss)
+Gewicht: 0
+Initativfaktor: 4
+Fertigkeit: Schleuder
+Typ:  1-händig
+Mindeststärke: 3
+~
+@78 = ~Schriftrolle~
+@79 = ~Dimensionstor~
+@80 = ~Dimensionstor (Veränderung) 
+Stufe: 4
+Reichweite: 0
+Dauer: Sofort 
+Wirkungsdauer: 1
+Wirkungsbereich: Anwender
+Rettungswurf: Keiner 
+
+Dieser Zauberspruch transportiert den Zaubernden an einen beliebigen Ort innerhalb seiner Sichtweite. Wenn der Zauberspruch gewirkt wird, öffnet sich ein Dimensionstor vor dem Zaubernden, durch das er sofort tritt. Bei der Anwendung des Zaubers öffnet sich vor dem Anwender ein Dimensionstor, das er sofort durchschreitet.~
+@81 = ~Angriff der Verdrängerbestie~
+@82 = ~Angriff der Großen Verdrängerbestie~
+@83 = ~Magischer Wahnsinn~
+@84 = ~Fluch Loron~
+@85 = ~Corpae's Fluch~
+@86 = ~Gruppenopfer~

@@ -1,0 +1,124 @@
+IF
+	See([PC])
+	Range([PC],30)
+	Global("TALKTIME","LOCALS",0)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+		SetGlobal("TALKTIME","LOCALS",1)
+END
+
+IF
+	Global("TALKTIME","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	StateCheck(Myself,STATE_SILENCED)
+	HaveSpell(WIZARD_VOCALIZE)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_VOCALIZE)
+END
+
+IF
+	Global("TALKTIME","LOCALS",1)
+	HaveSpell(WIZARD_MIRROR_IMAGE)
+	Global("mirrorimage","LOCALS",0)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_MIRROR_IMAGE)
+		SetGlobal("mirrorimage","LOCALS",1)
+END
+
+IF
+	Global("TALKTIME","LOCALS",1)
+	Detect([PC])
+	!See(LastSeenBy(Myself))
+	HaveSpell(WIZARD_TRUE_SIGHT)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_TRUE_SIGHT)
+END
+
+IF
+	Global("TALKTIME","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	HaveSpellRES("ajwi968")
+	Global("ForceSpike","LOCALS",0)
+THEN
+	RESPONSE #100
+		SpellRES("ajwi968",Myself)
+		SetGlobal("ForceSpike","LOCALS",1)
+END
+
+IF
+	Global("TALKTIME","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_FINGER_OF_DEATH)
+	Global("FingerOfDeath","LOCALS",0)
+THEN
+	RESPONSE #100
+		Spell(FourthNearestEnemyOf(Myself),WIZARD_FINGER_OF_DEATH)
+		SetGlobal("FingerOfDeath","LOCALS",1)
+END
+
+IF
+	Global("TALKTIME","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	HaveSpellRES("ajwi967")
+	Global("Curse","LOCALS",0)
+THEN
+	RESPONSE #100
+		SpellRES("ajwi967",Myself)
+		SetGlobal("Curse","LOCALS",1)
+END
+
+IF
+	Global("TALKTIME","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_FINGER_OF_DEATH)
+	Global("FingerOfDeath","LOCALS",1)
+THEN
+	RESPONSE #100
+		Spell(FourthNearestEnemyOf(Myself),WIZARD_FINGER_OF_DEATH)
+		SetGlobal("FingerOfDeath","LOCALS",2)
+END
+
+IF
+	Global("TALKTIME","LOCALS",1)
+	HaveSpell(WIZARD_MIRROR_IMAGE)
+	Global("mirrorimage","LOCALS",1)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_MIRROR_IMAGE)
+		SetGlobal("mirrorimage","LOCALS",2)
+END
+
+IF
+	Global("TALKTIME","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	HaveSpellRES("ajwi968")
+	Global("ForceSpike","LOCALS",1)
+THEN
+	RESPONSE #100
+		SpellRES("ajwi968",Myself)
+		SetGlobal("ForceSpike","LOCALS",2)
+END
+
+IF
+	Global("TALKTIME","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_FINGER_OF_DEATH)
+	Global("FingerOfDeath","LOCALS",2)
+THEN
+	RESPONSE #100
+		Spell(FourthNearestEnemyOf(Myself),WIZARD_FINGER_OF_DEATH)
+		SetGlobal("FingerOfDeath","LOCALS",3)
+END
+
+IF
+	Global("TALKTIME","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+

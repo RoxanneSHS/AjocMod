@@ -1,0 +1,13 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		CreateCreatureDoor("AGBMAGE1",[1248.1792],10) // Mage
+		CreateCreatureDoor("AGBMAGE2",[1809.1772],3) // Mage
+		CreateCreatureDoor("AGBMAGE3",[1447.1736],14) // Mage
+		CreateCreatureDoor("agdispl1",[1220.1857],10) // Displacer Beast
+		CreateCreatureDoor("agdispl2",[1727.2003],6) // Greater Displacer Beast
+		EndCutSceneMode()
+END
+

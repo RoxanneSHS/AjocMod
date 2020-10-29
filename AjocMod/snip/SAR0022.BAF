@@ -1,0 +1,9 @@
+IF
+	Global("AGOgreSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("AGOgreSpawn","GLOBAL",1)
+		CreateCreature("agadem01",[467.216],14)
+		Continue()
+END
+

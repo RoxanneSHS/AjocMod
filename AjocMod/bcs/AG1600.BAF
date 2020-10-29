@@ -1,0 +1,24 @@
+IF
+	Global("AGFirstTIme","AG1600",0)
+THEN
+	RESPONSE #100
+		CreateCreature("agoakbos",[759.470],5) // Oak Fist Captain
+		CreateCreature("agoakdw4",[624.626],8) // Oak Fist Slinger
+		CreateCreature("agoakdw4",[1253.469],5) // Oak Fist Slinger
+		CreateCreature("agoakdw4",[800.275],4) // Oak Fist Slinger
+		CreateCreature("agoakdw4",[787.1104],4) // Oak Fist Slinger
+		CreateCreature("agoakdw3",[1162.576],4) // Oak Fist Cleric
+		CreateCreature("agoakdw3",[712.713],7) // Oak Fist Cleric
+		CreateCreature("agoakdw3",[722.524],5) // Oak Fist Cleric
+		CreateCreature("agoakdw3",[865.493],5) // Oak Fist Cleric
+		SetGlobal("AGFirstTIme","AG1600",1)
+END
+
+IF
+	!Exists("agsquir2")
+	Global("SquirrelFollow","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CreateCreatureObject("agsquir2",Player1,0,0,0) // Squirrel
+END
+

@@ -1,0 +1,51 @@
+IF
+	Global("AG8000FirstVisit","AG8000",0)
+THEN
+	RESPONSE #100
+		CreateCreature("AGDEANO",[1479.1366],6) // Deano
+		CreateCreature("AGDEIMOS",[994.1475],6) // Deimos
+		CreateCreature("AGBOSS",[1566.1796],0) // Corpae
+		SetGlobal("AG8000FirstVisit","AG8000",1)
+END
+
+IF
+	Global("AG8000FirstVisit","AG8000",1)
+THEN
+	RESPONSE #100
+		ActionOverride("agdeano",MoveToPoint([1000.1532]))
+		SetGlobal("AG8000FirstVisit","AG8000",2)
+END
+
+IF
+	Global("deimos2","AG8000",1)
+THEN
+	RESPONSE #100
+		CreateCreature("AGGRIEV",[994.1475],6) // Griever
+		SetGlobal("deimos2","AG8000",2)
+END
+
+IF
+	!Exists("agsquir2")
+	Global("SquirrelFollow","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CreateCreatureObject("agsquir2",Player1,0,0,0) // Squirrel
+END
+
+IF
+	Global("bosstime","AG8000",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		StartCutScene("agbossgo")
+		SetGlobal("bosstime","AG8000",2)
+END
+
+IF
+	Dead("AGBOSS")
+	Global("CorpaeDead","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CorpaeDead","GLOBAL",1)
+END
+

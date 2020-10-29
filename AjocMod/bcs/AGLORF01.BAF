@@ -1,0 +1,9 @@
+IF
+	Global("AGVillageHeld","GLOBAL",4)
+	!Global("AGFreezeMe","LOCALS",1)
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("MINORGLB",Myself)
+		SetGlobal("AGFreezeMe","LOCALS",1)
+END
+

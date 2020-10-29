@@ -1,0 +1,29 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("agbadguy")
+		MoveViewPoint([832.622],FAST)
+		MoveToPoint([812.666])
+		ActionOverride("agmag01",ForceSpell(Player1,WIZARD_FLAME_ARROW))
+		ActionOverride("agmag02",ForceSpell(Player1,WIZARD_MELF_ACID_ARROW))
+		ActionOverride(Player1,MoveToPoint([763.821]))
+		CreateVisualEffectObject("CALLLIGH","agbadguy")
+		CreateVisualEffectObject("SPFLESHS","agbadguy")
+		SmallWait(3)
+		DestroySelf()
+		CreateCreature("AGOAKDW2",[772.660],3) // Oak Fist
+		CreateCreature("AGOAKDW2",[810.676],3) // Oak Fist
+		CreateCreature("AGOAKDW2",[751.685],3) // Oak Fist
+		CreateCreature("AGOAKDW2",[728.713],3) // Oak Fist
+		CreateCreature("AGOAKDW2",[792.744],3) // Oak Fist
+		EndCutSceneMode()
+		ActionOverride("agmag01",ForceSpell("agmag01",DRYAD_TELEPORT))
+		ActionOverride("agmag02",ForceSpell("agmag02",DRYAD_TELEPORT))
+		ActionOverride("agmag03",ForceSpell("agmag03",DRYAD_TELEPORT))
+		Wait(1)
+		ActionOverride("agmag01",DestroySelf())
+		ActionOverride("agmag02",DestroySelf())
+		ActionOverride("agmag03",DestroySelf())
+END
+

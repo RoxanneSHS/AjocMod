@@ -1,0 +1,59 @@
+IF
+	Global("AGInsanity","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_FIREBALL)
+		SetGlobal("AGInsanity","LOCALS",1)
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_FIREBALL)
+		SetGlobal("AGInsanity","LOCALS",1)
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_CONFUSION)
+		SetGlobal("AGInsanity","LOCALS",1)
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_IMPROVED_INVISIBILITY)
+		SetGlobal("AGInsanity","LOCALS",1)
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_FIRE_SHIELD_RED)
+		SetGlobal("AGInsanity","LOCALS",1)
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_FIRE_SHIELD_BLUE)
+		SetGlobal("AGInsanity","LOCALS",1)
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_TELEPORT_FIELD)
+		SetGlobal("AGInsanity","LOCALS",1)
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_CLOUDKILL)
+		SetGlobal("AGInsanity","LOCALS",1)
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_CHAOS)
+		SetGlobal("AGInsanity","LOCALS",1)
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_FLESH_TO_STONE)
+		SetGlobal("AGInsanity","LOCALS",1)
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_DEATH_SPELL)
+		SetGlobal("AGInsanity","LOCALS",1)
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_CHAIN_LIGHTNING)
+		SetGlobal("AGInsanity","LOCALS",1)
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_SPHERE_OF_CHAOS)
+		SetGlobal("AGInsanity","LOCALS",1)
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_MASS_INVISIBILITY)
+		SetGlobal("AGInsanity","LOCALS",1)
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_ABI_DALZIMS_HORRID_WILTING)
+		SetGlobal("AGInsanity","LOCALS",1)
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_METEOR_SWARM)
+		SetGlobal("AGInsanity","LOCALS",1)
+	RESPONSE #100
+		ForceSpell(Myself,CLERIC_FLAME_STRIKE)
+		SetGlobal("AGInsanity","LOCALS",1)
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself),CLERIC_FLAME_STRIKE)
+		SetGlobal("AGInsanity","LOCALS",1)
+END
+

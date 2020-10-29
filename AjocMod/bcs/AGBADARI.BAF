@@ -1,0 +1,14 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		CreateCreatureDoor("agbadguy",[560.448],0) // Corpae
+		CreateCreatureDoor("agmag01",[158.275],0) // Mage
+		CreateCreatureDoor("agmag02",[217.420],0) // Mage
+		CreateCreatureDoor("agmag03",[608.111],0) // Mage
+		CreateCreatureDoor("agmag04",[717.272],0) // Mage
+		Wait(1)
+		EndCutSceneMode()
+END
+

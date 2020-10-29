@@ -1,0 +1,10 @@
+IF
+	Global("BrusShow3","GLOBAL",1)
+	Global("AGLoronGov","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("AGBRUS",[1131.1638],8)
+		SetGlobal("AGLoronGov","GLOBAL",1)
+		Continue()
+END
+

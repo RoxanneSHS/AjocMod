@@ -1,0 +1,364 @@
+@0    = ~Loron's Return (Ajocmod)~
+@1    = ~Oak Fist Cleric~
+@2    = ~Corpae~
+@3    = ~Bandit~
+@4    = ~Bandit Leader~
+@5    = ~Mage~
+@6    = ~Deano~
+@7    = ~Deimos~
+@8    = ~Displacer Beast~
+@9    = ~Greater Displacer Beast~
+@10   = ~Griever~
+@11   = ~Hermit~
+@12   = ~Loron~
+@13   = ~Oak Fist Captain~
+@14   = ~Oak Fist~
+@15   = ~Ademoth~
+@16   = ~Oak Fist Slinger~
+@17   = ~Squirrel~
+@18   = ~Amulet~
+@19   = ~Amulet of Enchanced Thievery +1~
+@20   = ~Amulets are usually magical devices that are commonly worn around the neck, suspended from a chain.  The type of chain that comes with an amulet generally increases the item's aesthetic value, not its magical properties.  Only one amulet can be dangled from the neck at a time.  ~
+@21   = ~This Amulet was picked up off a Bandit in the woods. It seems to improve a rogue's skills and abilities.
+
+STATISTICS:
++1 to Armor Class
++5%  to Find Traps
+Cast Knock once a day.
+Only usable by:
+ Thieves (Mono and Multiclass)~
+@22   = ~Girdle~
+@23   = ~Girdle of Demon Combat~
+@24   = ~Girdles are generally similar to belts.  Unlike belts, girdles are not used to hold up pants and dungarees, but to carry pouches, scabbards, and the like.  
+
+STATISTICS:
+
+Weight:  1~
+@25   = ~Girdle of Demon Combat: Xiphias was a young mage, who had chosen to study the conjuring of Demons. But however, before he was allowed to start the course, he was forced by the school to have this belt built, which offers a few basic but important protections from the demonic kind. How this belt got into the Dwarven Treasure Hold is unknown, and thoughts of evil demons within the cave you found this spring to mind.
+
+STATISTICS:
+
+Protection from Evil
++2 THAC0 against demons.
+Weight:  1~
+@26   = ~Katana~
+@27   = ~Blade of the Night~
+@28   = ~Katana
+
+The katana is a single-edged, slightly curved sword that ends with a chisel point. The katana is perhaps one of the finest swords ever made, the steps to its creation a long and secret process, that is more art form than anything else.  This blade is an important facet of Kara-Tur culture.  To touch or wield a samurai's katana is to insult the samurai and to incite his wrath.  For a gaijin, or foreigner, to own such a blade is a rare occurrence. Either the gaijin is a greatly honored friend of an important minister, or  the gaijin has murdered a samurai.
+
+STATISTICS:
+
+Damage:  1D10
+Damage type:  slashing
+Weight:  6
+Speed Factor: 4
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@29   = ~Blade of the Night
+
+This was the weapon used by the most famous assassin in Kara Tur, but no one knew her NAME1 apart from the emperor.  She was the greatest thief the world had ever seen.  She received this powerful weapon after completing a series of succesful missions for the emperor, who decided she was worthy of the blade.  It was made by the emperor's best weapon smiths, and then tempered in the bloods of  red, black, silver and blue dragons. The legend says this weapon would make anyone almost as good as a thief as the original owner, but because of the strong enchantments, the katana requires much from its wielder, and it is only usable by a thief. How it has ended in your hands, is anyone's guess.
+
+STATISTICS:
+
+Equipped Abilities: 
+-1 to strength
+-1 to constitution
++1 to dexterity
+regenerates 1  hp/6 secs,  Immunity to poison
++45% to hide in shadows
++35% open locks/set snares/detect traps
++15% detect illusion
+
+Combat Abilities:
+On each hit the target must save vs. spells or receive additional 2 points of fire+acid+cold+electric damage
+
+THAC0 +4 bonus
+Damage:  1D10 +4 
+Damage type:  slashing
+Weight:  6
+Speed Factor: 4
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength
+Only usable by:
+ Any Thief Kit (single, dual or  multi) ~
+@30   = ~Flail ~
+@31   = ~Spikes, Blades and Weight +3~
+@32   = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link.  The weapon was originally used as a tool for threshing grain.  
+
+STATISTICS:
+
+Damage:  1D6 +1
+Damage type:  crushing
+Weight: 15
+Speed Factor: 7
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 13 Strength
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
+@33   = ~Spikes, Blades and Weight +3: Combines piercing, smashing and slashing for an interesting weapon, almost guaranteed to break through any type of armour.
+
+STATISTICS:
+
+THAC0: +3 bonus
+1D6+1 crushing damage
+1D6+1 slashing damage
+1D6+1 piercing damage
+Weight: 15
+Requires: 13 Strength
+Special: Fast attack speed.
+Not Usable By:
+ Mage
+ Thief
+ Druid~
+@34   = ~Idol of Magical Insanity~
+@35   = ~All you can make out is the old, foreign writng for "BEWARE".
+You are not sure what abilities this Idol has, and you are not sure if you want to find out.~
+@36   = ~Dagger~
+@37   = ~The Misleader +4~
+@38   = ~The typical dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edge and is a bit shorter than the dagger. 
+
+STATISTICS:
+
+Damage:  1D4 
+Damage type:  piercing
+Weight: 1
+Speed Factor: 2 
+Proficiency Type: Dagger
+Type:  1-handed
+Requires:3 Strength
+Not Usable By:
+ Cleric~
+@39   = ~The Misleader +4: Legend of the thief Turan Ne-Lin spread fastm as commoners heard of his ability to be in one plae, staring at you and in a single flash appear behind you, planting his dagger deep into his victim's back. This fine weapon appears to be specially made, to allow any cut throat to have Turan's super powerful and quick powers, and would be very popular with any rogue.
+
+STATISTICS:
+
+Damage:  1D4+4
+THAC0: +4 bonus
+Special: Cast Mislead twice a day
+Damage type:  piercing
+Weight: 2
+Speed Factor: 1 
+Proficiency Type: Dagger
+Type:  1-handed
+Requires:3 Strength
+Not Usable By:
+ Cleric~
+@40   = ~Throwing Dagger~
+@41   = ~Dagger of Homing +3~
+@42   = ~The typical throwing dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edge and is a bit shorter than the dagger.  Unlike a dagger, this one has a smaller handle and is balanced differently.
+
+STATISTICS:
+
+Damage:  1D4
+Damage type:   missile (piercing)
+Weight: 0
+Speed Factor: 2
+Proficiency Type: Dagger
+Type:  1-handed
+Requires: 3 Strength
+Not Usable By:
+ Cleric~
+@43   = ~Dagger of Homing +3:
+
+These appear to be normal knives, but are actually +3 magical weapons. Whether the dagger hits or misses the intended target, it will magically return to the thrower in the same round and can be re-used.
+
+STATISTICS:
+
+Combat Abilities: dagger returns to the thrower
+
+THACO:  +3 bonus
+Damage:  2D4 + 3
+Damage type:  missile (piercing)
+Weight: 1
+Speed Factor: 1
+Proficiency Type: Dagger
+Type:  1-handed
+Requires: 3 Strength
+Not Usable By:
+ Cleric
+ Beast Master~
+@44   = ~Gauntlets~
+@45   = ~Gauntlets of Time Stopping~
+@46   = ~Gauntlets are armored gloves.  They can be made of leather, metal plates, or chain mail.  Every suit of armor is assumed to include gauntlets of an appropriate type.  Magical gauntlets tend to be finer, lighter, and more easily worn than normal varieties.~
+@47   = ~Gauntlets of Time Stopping. These much sought after Gauntlets found their way to Loron's ownership as a gift from one of his followers. As to where they acquired these interesting gloves, no one is quite sure. 
+By clapping and holding you hands together the user may cause time to stop around him for a small amount of time, enabling a few free hits, healing time or even a spell.
+
+STATISTICS:
+
+Special: Cast Time Stop for 5 seconds once a day.
++1 bonus to Save vs. Spells.
+Weight:  2~
+@48   = ~Ioun Stone~
+@49   = ~Ioun Stone of Lore~
+@50   = ~This is a small stone that floats in an orbit around the owner's head.  Simply equip the stone to set it in its orbit.  These obviously magical stones have different properties depending on their color.~
+@51   = ~Ioun Stone of Lore: Forged carefully for the barbarian Maerik, this stone, when worn, allows the wearer to have the lore of a thousand bards. Maerik was fed up of not understanding what his ancient treasures did, and he didn't dare part with his money for it to be indentified else where. Sadly, Maerik went missing soon after it was made and he is assumed to be living in a large house, in the region of Waterdeep. No one has bothered to check yet.
+
+STATISTICS
+
+Equipped Abilities: 
++150 to Lore
+Weight: 2~
+@52   = ~Altar Key~
+@53   = ~This key is shaped like the small Altar on Loron's Shrine. You assume it will open it without a problem.~
+@54   = ~Letter~
+@55   = ~Loron,
+   I hope you received this on time, because I write with terrible news. Corpae has acquired a small group of followers and has therefore regained considerable power. He is after you, seeking revenge. It is only a matter of time before he is powerful enough to teleport straight to your home shrine and capture you, so I suggest you leave at once to Athkatla, where Corpae will not be able to use any magic due to the strict laws enforced by the Cowled Wizards. Should you need to return to your shrine, I suggest acquiring protection of a sort.
+
+If you should need to seek refuge, I am currently residing in a small Inn near the City Gates.
+Yours Sincerely,
+              Ademoth~
+@56   = ~Fu-Dagger +5~
+@57   = ~"Fell from so far above,
+ Unto the land we love.
+ Cutting all foe,
+ Killing all foe.
+
+ You know the weapon
+ Of course you do
+ Unless I am too"
+
+Inscription of the Dagger.
+
+STATISTICS:
+
+Damage:  2D8+5
+THAC0 Bonus: 5
+Damage type:  piercing
+Weight: 1
+Speed Factor: 0 
+Proficiency Type: Dagger
+Type:  1-handed
+Requires:3 Strength
+Not Usable By:
+ Cleric~
+@58   = ~War Hammer~
+@59   = ~War Hammer +3~
+@60   = ~Mounted knights cannot effectively use long pole weapons while on horseback, and as a result, many weapons have been fitted with shorter shafts so they may be wielded with just one hand.  Maces and flails are two previous examples of this - the war hammer is another.  The horseman's war hammer is a descendant of the Lucerne hammer.  It is made entirely of steel, with rondels protecting and strengthening the grip.  Rondels are small disks of metal, often shaped into decorative designs.  The shaft is about 18 inches long.
+
+STATISTICS:
+
+Damage:  1D4 + 1
+Damage type:  crushing
+Weight: 6
+Speed Factor: 4
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires: 9 Strength
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
+@61   = ~War Hammer +3: This enchanced Hammer is wielded by most Oak Fist Dwarves you have met, and packs quite a punch.
+
+Damage:  1D4 + 4
+Damage type:  Crushing
+Weight: 5
+Speed Factor: 2
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires: 9 Strength
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
+@62   = ~Oak Hammer +4~
+@63   = ~Oak Hammer +4: This very powerful hammer was won off the Oak Fist Captain outside of the cave. The hammer does a small ammount of damage to it's holder every hit, due to the power it requires of you. However, every time you succesfully hit an opponent, your targets become easier and easier to hit for a short ammount of time.
+
+STATISTICS:
+
+Damage:  1D4 + 5
+Special: ID4 Crushing damage upon wielder upon hit.
++1 to THAC0 for 3 seconds upon hit.
+Damage type:  Crushing
+Weight: 14
+Speed Factor: 4
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires: 11 Strength
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
+@64   = ~Ring~
+@65   = ~Ring of the Companions~
+@66   = ~A ring is a small band of precious metal that is used as jewelry.  Some rare rings have had enchantments placed upon them that confer various magical abilities.  These rings are highly sought after, especially by those of the adventuring profession.~
+@67   = ~Ring of the Companions: Items like these were made to train Adventurers against against foes, by improving the enemies in direct sight and also improving the party's resistance. Many are not sure what to think of such items, as they give bonuses to both monster and hero.
+
+STATISTICS
+
++1 to all Saving Throws of all party members.
++12 to all non-party members hit points.~
+@68   = ~Greater Ring of the Companions~
+@69   = ~Greater Ring of the Companions: Items like these were made to train Adventurers against against foes, by improving the enemies in direct sight and also improving the party's resistance. Many are not sure what to think of such items, as they give bonuses to both monster and hero.
+
+STATISTICS
+
++3 to all damage of all party members.
++2 THAC0 bonus to all party members.
++1 Dexterity Bonues to all party members.
+All non-party members gain Haste.
+All non-party members gain 33% magic resistance.
+All non-party members gain +1 to their AC.~
+@70   = ~Ring of Regeneration~
+@71   = ~This ring has a simple activation feature which causes the wielder to be ignored, like the priest spell "Sanctuary" and regenerate 2hp every second for 30 seconds. Attacking will cause the sanctuary effect to wear off, although the wearer will still regenerate.~
+@72   = ~Ring of Free Action~
+@73   = ~Ring of Free Action:  'Edventar's Gift'
+This ring was given to the reef scavenger and hunter known only as Edventar, by a group of aquatic elves long his friends.  His help in routing the "Pirate Queen" Yenandra of Dambrath was instrumental in their survival, though Yenandra continues to be feared anywhere the water meets land.
+
+STATISTICS:
+
+Special:  The wearer is immune to everything,  magical and otherwise,  that affects mobility in any way.  This includes haste and slow spells.~
+@74   = ~Sling~
+@75   = ~Sling +2~
+@76   = ~Slings have existed since the beginning of recorded history.  The basic sling consists of a leather or fabric strap with a pouch for holding the missile.  The weapon is held by both ends of the strap and twirled around the wielder's head.  When top speed is attained, the missile is launched by releasing one of the strap's ends. 
+
+STATISTICS:
+
+Weight: 0
+Speed Factor: 6
+Proficiency Type: Sling
+Type:  1-handed
+Requires: 3 Strength
+Not Usable By:
+~
+@77   = ~Magical slings are the hallmark of stout halfling warriors.  Usually their mothers or a talented aunt will create this sling for the halfling lad or lass who is about to embark on their second great adventure.  The reason that the sling is given on the second adventure and not the first is that many halflings decide not to pursue the life of an adventurer after getting a taste of it.
+
+STATISTICS:
+
+THACO:  +2 bonus
+Damage:  +2 (missile damage)
+Weight: 0
+Speed Factor: 4
+Proficiency Type: Sling
+Type:  1-handed
+Requires: 3 Strength
+Not Usable By:~
+@78   = ~Scroll~
+@79   = ~Dimension Door~
+@80   = ~Dimension Door (Alteration) 
+Level: 4
+Range: 0
+Duration: Instant 
+Casting Time: 1
+Area of Effect: The caster
+Saving Throw: None 
+
+This spell transports the caster to any place within the visual range of the caster.  When the spell is cast, a dimensional portal opens up in front of the caster, which he immediately steps through.  Upon passing through the portal, the caster finds himself at his chosen destination.  
+~
+@81   = ~Displacer Beast's Attack~
+@82   = ~Greater Displacer Beast's Attack~
+@83   = ~Magical Insanity~
+@84   = ~Curse Loron~
+@85   = ~Corpae's Curse~
+@86   = ~Party Immolation~

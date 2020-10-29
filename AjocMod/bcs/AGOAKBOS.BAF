@@ -1,0 +1,31 @@
+IF
+	See([PC])
+	Range([PC],30)
+	Global("TalkBitch","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("TalkBitch","LOCALS",1)
+		StartDialogueNoSet([PC])
+END
+
+IF
+	Global("TalkBitch","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	HPPercentGT(Myself,50)
+THEN
+	RESPONSE #100
+		Attack(NearestEnemyOf(Myself))
+END
+
+IF
+	Global("TalkBitch","LOCALS",1)
+	Global("OCALSoakfisthurt","LOCALS",0)
+	See(NearestEnemyOf(Myself))
+	Range(NearestEnemyOf(Myself),3)
+	HPPercentLT(Myself,49)
+THEN
+	RESPONSE #100
+		RunAwayFrom(NearestEnemyOf(Myself),30)
+		SetGlobal("OCALSoakfisthurt","LOCALS",1)
+END
+

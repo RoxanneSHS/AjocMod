@@ -1,0 +1,55 @@
+IF
+	Global("AGSquirrelQuest","GLOBAL",9)
+THEN
+	RESPONSE #100
+		MoveToObject(NearestEnemyOf(Myself))
+END
+
+IF
+	Global("AGSquirrelQuest","GLOBAL",9)
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Global("AGSquirrelQuest","GLOBAL",9)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END
+
+IF
+	Name("SUELFEND",Myself)
+	GlobalGT("TalkAjoc","GLOBAL",0)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	True()
+	!Global("AGSquirrelQuest","GLOBAL",9)
+THEN
+	RESPONSE #100
+		RandomWalk()
+END
+
+IF
+	Global("AGSquirrelQuest","GLOBAL",9)
+THEN
+	RESPONSE #100
+		Attack(Player1)
+		Enemy()
+END
+

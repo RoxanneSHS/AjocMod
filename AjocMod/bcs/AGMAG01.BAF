@@ -1,0 +1,21 @@
+IF
+	Global("Anarchy","LOCALS",1)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,DRYAD_TELEPORT)
+		Wait(1)
+		DestroySelf()
+		SetGlobal("Anarchy","AG1700",2)
+END
+
+IF
+	Global("Anarchy","LOCALS",0)
+	See([PC])
+	Range([PC],30)
+	!AreaCheck("AG1000")
+	!AreaCheck("AG1500")
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+END
+

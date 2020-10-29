@@ -1,0 +1,21 @@
+IF
+	Global("AGFirstTime","AG1700",0)
+THEN
+	RESPONSE #100
+		CreateCreature("agmag01",[777.551],2) // Mage
+		CreateCreature("agdispl1",[668.535],4) // Displacer Beast
+		CreateCreature("agdispl2",[850.573],4) // Greater Displacer Beast
+		CreateCreature("agdisp11",[342.860],7) // Displacer Beast
+		CreateCreature("agdisp12",[372.797],5) // Displacer Beast
+		CreateCreature("agdisp13",[865.493],5) // Displacer Beast
+		SetGlobal("AGFirstTime","AG1700",1)
+END
+
+IF
+	!Exists("agsquir2")
+	Global("SquirrelFollow","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CreateCreatureObject("agsquir2",Player1,0,0,0) // Squirrel
+END
+

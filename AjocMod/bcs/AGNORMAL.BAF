@@ -1,0 +1,7 @@
+IF
+	Global("AGInsanity","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("AGInsanity","LOCALS",0)
+END
+

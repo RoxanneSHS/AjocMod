@@ -1,0 +1,58 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		Wait(2)
+		FadeFromColor([30.0],0)
+		SetGlobal("AGNoBandits","GLOBAL",1)
+		LeaveAreaLUA("ag0042","GTRSK002",[575.421],12)
+		MultiPlayerSync()
+		SetMasterArea("ag0042")
+		MultiPlayerSync()
+		CreateCreatureObject("agloron",Player1,3,0,0) // Loron
+		Wait(1)
+		SetGlobal("AGLoronJourney","GLOBAL",2)
+		EndCutSceneMode()
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player2)
+		LeaveAreaLUA("ag0042","GTRSK002",[620.421],12)
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player3)
+		LeaveAreaLUA("ag0042","GTRSK002",[575.456],12)
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player4)
+		LeaveAreaLUA("ag0042","GTRSK002",[421.486],12)
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player5)
+		LeaveAreaLUA("ag0042","GTRSK002",[511.496],12)
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player6)
+		LeaveAreaLUA("ag0042","GTRSK002",[576.527],12)
+END
+

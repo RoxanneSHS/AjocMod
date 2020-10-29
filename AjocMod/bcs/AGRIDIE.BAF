@@ -1,0 +1,15 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("agdeano")
+		ForceSpell("agdeimos",DO_NOTHING)
+		ActionOverride("agdeimos",Polymorph(KOBOLD_XVART))
+		DisplayStringHead("agdeano",18673) // And this should redeem you for all you have done?  I say it is a fitting punishment!
+		EndCutSceneMode()
+		ActionOverride("agdeimos",EscapeArea())
+		Wait(2)
+		SetGlobal("bosstime","AG8000",1)
+		EscapeArea()
+END
+

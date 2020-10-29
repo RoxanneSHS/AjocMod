@@ -1,0 +1,28 @@
+IF
+	Global("AG1000FirstVisit","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("AGLorf01",[460.168],0) // Mage
+		CreateCreature("AGLorf02",[461.219],4) // Mage
+		CreateCreature("AGLorf03",[564.318],7) // Mage
+		CreateCreature("AGLorf04",[407.318],10) // Mage
+		CreateCreature("AGLorf05",[288.256],12) // Mage
+		CreateCreature("AGLorf06",[297.217],14) // Mage
+		SetGlobal("AG1000FirstVisit","GLOBAL",1)
+END
+
+IF
+	Global("AGRandomItem","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("AGRandomItem","GLOBAL",1)
+	RESPONSE #100
+		SetGlobal("AGRandomItem","GLOBAL",2)
+	RESPONSE #100
+		SetGlobal("AGRandomItem","GLOBAL",3)
+	RESPONSE #100
+		SetGlobal("AGRandomItem","GLOBAL",4)
+	RESPONSE #100
+		SetGlobal("AGRandomItem","GLOBAL",5)
+END
+

@@ -1,0 +1,28 @@
+IF
+	See([PC])
+	!Global("NukeSquirrel","GLOBAL",1)
+	Range([PC],15)
+	Global("SquirrelFollow","GLOBAL",0)
+THEN
+	RESPONSE #100
+		MoveToObject(LastSeenBy(Myself))
+		SetGlobal("SquirrelFollow","GLOBAL",1)
+END
+
+IF
+	!Global("NukeSquirrel","GLOBAL",1)
+	See([PC])
+	Range([PC],15)
+THEN
+	RESPONSE #100
+		MoveToObject(LastSeenBy(Myself))
+END
+
+IF
+	Global("NukeSquirrel","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DestroySelf()
+		SetGlobal("SquirrelFollow","GLOBAL",0)
+END
+

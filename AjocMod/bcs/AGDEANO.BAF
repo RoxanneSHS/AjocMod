@@ -1,0 +1,10 @@
+IF
+	See([PC])
+	Global("AG8000FirstVisit","AG8000",2)
+	Range([PC],30)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+		SetGlobal("AG8000FirstVisit","AG8000",3)
+END
+

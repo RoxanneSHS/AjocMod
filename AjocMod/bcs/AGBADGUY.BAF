@@ -1,0 +1,36 @@
+IF
+	Global("AGVillageHeld","GLOBAL",2)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+		SetGlobal("AGVillageHeld","GLOBAL",3)
+END
+
+IF
+	Global("AGCaveVisit","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+		SetGlobal("AGCaveVisit","GLOBAL",2)
+END
+
+IF
+	Global("AGVillageHeld","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ForceSpellRES("AJWI966",Myself)
+		ActionOverride("agmag01",ForceSpellRES("AJWI966",Myself))
+		ActionOverride("agmag02",ForceSpellRES("AJWI966",Myself))
+		ActionOverride("agmag03",ForceSpellRES("AJWI966",Myself))
+		ActionOverride("agmag04",ForceSpellRES("AJWI966",Myself))
+		SetGlobal("AGVillageHeld","GLOBAL",4)
+END
+
+IF
+	Global("AGVillageHeld","GLOBAL",4)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+		SetGlobal("AGVillageHeld","GLOBAL",4)
+END
+
