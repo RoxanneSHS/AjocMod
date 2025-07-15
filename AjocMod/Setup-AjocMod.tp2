@@ -8,6 +8,7 @@ AUTO_TRA ~AjocMod/Languages/%s~
 
 ALWAYS
   ACTION_DEFINE_ARRAY va#reload BEGIN setup END
+  ACTION_DEFINE_ARRAY va#noconvert BEGIN install END
 
   LAF HANDLE_CHARSETS
     INT_VAR
@@ -15,6 +16,7 @@ ALWAYS
     STR_VAR
       tra_path = EVAL ~%MOD_FOLDER%/languages~
       reload_array = va#reload
+	  noconvert_array = va#noconvert
   END
 END
 
@@ -37,6 +39,10 @@ LANGUAGE ~Deutsch (Uebersetzung von Rumpelstilz)~
 LANGUAGE ~Italian (translation by Ilot)~
          ~italian~
          ~AjocMod/languages/italian/Setup.tra~
+		 
+LANGUAGE ~Simplified Chinese (translation by barkingdog)~
+         ~schinese~
+         ~AjocMod/languages/schinese/install.tra~
 
 BEGIN @0
 
